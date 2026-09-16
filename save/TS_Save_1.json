@@ -1502,8 +1502,8 @@
         "scaleZ": 1.0
       },
       "Nickname": "Карты действий",
-      "Description": "Колода: 18 карт.",
-      "GMNotes": "teyrin:actions@9b71451d",
+      "Description": "Колода: 19 карт.",
+      "GMNotes": "teyrin:actions@39fbb789",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -1547,12 +1547,13 @@
         514,
         515,
         516,
-        517
+        517,
+        518
       ],
       "CustomDeck": {
         "5": {
-          "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-          "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+          "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+          "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
           "NumWidth": 5,
           "NumHeight": 4,
           "BackIsHidden": true,
@@ -1565,7 +1566,7 @@
       "XmlUI": "",
       "ContainedObjects": [
         {
-          "GUID": "400137",
+          "GUID": "401715",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -1612,8 +1613,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -1623,7 +1624,7 @@
           }
         },
         {
-          "GUID": "40026e",
+          "GUID": "40184c",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -1670,8 +1671,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -1681,7 +1682,7 @@
           }
         },
         {
-          "GUID": "4003a5",
+          "GUID": "401983",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -1728,8 +1729,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -1739,7 +1740,7 @@
           }
         },
         {
-          "GUID": "4004dc",
+          "GUID": "401aba",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -1786,8 +1787,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -1797,7 +1798,7 @@
           }
         },
         {
-          "GUID": "400613",
+          "GUID": "401bf1",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -1844,8 +1845,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -1855,7 +1856,7 @@
           }
         },
         {
-          "GUID": "40074a",
+          "GUID": "401d28",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -1902,8 +1903,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -1913,7 +1914,7 @@
           }
         },
         {
-          "GUID": "400881",
+          "GUID": "401e5f",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -1960,8 +1961,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -1971,7 +1972,7 @@
           }
         },
         {
-          "GUID": "4009b8",
+          "GUID": "401f96",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -2018,8 +2019,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -2029,7 +2030,7 @@
           }
         },
         {
-          "GUID": "400aef",
+          "GUID": "402e2a",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -2076,8 +2077,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -2087,7 +2088,7 @@
           }
         },
         {
-          "GUID": "400c26",
+          "GUID": "402f61",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -2134,8 +2135,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -2145,7 +2146,7 @@
           }
         },
         {
-          "GUID": "400d5d",
+          "GUID": "403098",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -2192,8 +2193,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -2203,7 +2204,7 @@
           }
         },
         {
-          "GUID": "400e94",
+          "GUID": "4031cf",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -2250,8 +2251,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -2261,7 +2262,7 @@
           }
         },
         {
-          "GUID": "400fcb",
+          "GUID": "403306",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -2308,8 +2309,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -2319,7 +2320,7 @@
           }
         },
         {
-          "GUID": "401102",
+          "GUID": "40343d",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -2366,8 +2367,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -2377,7 +2378,7 @@
           }
         },
         {
-          "GUID": "401239",
+          "GUID": "403574",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -2424,8 +2425,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -2435,7 +2436,7 @@
           }
         },
         {
-          "GUID": "401370",
+          "GUID": "4036ab",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -2482,8 +2483,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -2493,7 +2494,7 @@
           }
         },
         {
-          "GUID": "4014a7",
+          "GUID": "4037e2",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -2540,8 +2541,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
@@ -2551,7 +2552,7 @@
           }
         },
         {
-          "GUID": "4015de",
+          "GUID": "403919",
           "Name": "Card",
           "Transform": {
             "posX": 12.0000076,
@@ -2598,8 +2599,66 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d044dd5c.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.88a2bffc.png",
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "403a50",
+          "Name": "Card",
+          "Transform": {
+            "posX": 12.0000076,
+            "posY": 4.6675832,
+            "posZ": -10.8243561,
+            "rotX": 3.47304933e-07,
+            "rotY": 180.008835,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Тестовая карта",
+          "Description": "Верх: Тестовая карта — ОД —, вын. —\n",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 518,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
               "NumWidth": 5,
               "NumHeight": 4,
               "BackIsHidden": true,
