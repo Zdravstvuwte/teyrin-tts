@@ -1,0 +1,17 @@
+{
+  "actions_face": "actions_face.d044dd5c.png",
+  "actions_back": "actions_back.88a2bffc.png",
+  "gear_face": "gear_face.c03cac03.png",
+  "gear_back": "gear_back.005a2a19.png",
+  "beast_face": "beast_face.257b82b1.png",
+  "beast_back": "beast_back.c02d88b2.png",
+  "map_island": "map_island.d7ba6b15.png",
+  "map_camp": "map_camp.510d0614.png",
+  "tok_firestone": "tok_firestone.f32d9ecb.png",
+  "transition": "transition.3fa568fd.png",
+  "fig_player": "fig_player.3cefe3f9.png",
+  "fig_npc": "fig_npc.7db6b350.png",
+  "fig_crab": "fig_crab.8992b9a3.png",
+  "fig_beast": "fig_beast.571b4f4a.png",
+  "fig_palm": "fig_palm.ee6dfc86.png"
+}

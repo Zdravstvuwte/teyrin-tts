@@ -1,0 +1,4123 @@
+{
+  "SaveName": "Тэйрин — прототип",
+  "EpochTime": 1789521649,
+  "Date": "9/16/2026 4:20:49 AM",
+  "VersionNumber": "v14.2.2",
+  "GameMode": "Тэйрин — первый прототип",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.65,
+  "Table": "Table_RPG",
+  "Sky": "Sky_Cathedral",
+  "Note": "Тэйрин — сцена первого прототипа",
+  "TabStates": {
+    "0": {
+      "title": "Правила",
+      "body": "ТЭЙРИН — СЦЕНА ПЕРВОГО ПРОТОТИПА\n\nИгроки\n  Белый  — Игрок (рука снизу)\n  Чёрный — Ведущий (рука сверху)\n  Обе руки пустые.\n\nКолоды (перед игроком)\n  Карты действий — 18 карт, верх и низ карты это два разных\n                   варианта действия.\n  Карты снаряжения — 3 карты.\n\nСетка\n  Гексагональная, привязка по ЦЕНТРАМ гексов. Сетку рисует сам TTS —\n  на картах локаций собственных контуров гексов нет, чтобы не было\n  двух разметок сразу.\n  Options - Grid: Size X = Size Y = 2.0, Offset X/Y = 0.\n  Размеры именно РАВНЫЕ: гексы на карте равносторонние, а разные\n  Size X / Size Y сплющивают саму сетку.\n\n  Остров ровно 13 гексов в ширину и 8 в высоту, старт 5 x 4.\n  По этому и проверяется размер: если по ширине острова укладывается\n  13 гексов — размер верный.\n\n  ЕСЛИ КАРТА НЕ ЛОЖИТСЯ НА СЕТКУ — правый клик по острову. Меню меняет\n  не сетку, а саму раскладку: доски и фигурки пересчитываются вместе,\n  поэтому фигурки остаются в своих гексах при любом размере.\n    Размер гекса: следующий   — 5 трактовок Size X (x1, x1.155, x0.866,\n                                x1.333, x0.75)\n    Сдвиг: пол-колонки вбок   — если карта смещена по горизонтали\n    Сдвиг: пол-ряда вниз      — если смещена по вертикали\n    Повернуть гексы сетки     — Horizontal <-> Vertical hexes\n    Сброс калибровки          — вернуть исходное\n    Числа в чат               — показать текущие значения\n\n  Порядок: сначала размер, потом сдвиги. Выбранное сохраняется вместе\n  со сценой; числа из чата стоит передать в генератор, чтобы они\n  ставились сразу.\n\nЛокация 1 — старт (5 x 4 гексов)\n  Вы, NPC.\n\nЛокация 2 — остров (13 x 8 гексов)\n  Поверхности выложены целыми гексами: вода, пляж, каменистая земля,\n  раскалённая каменная земля. Границы зон идут по рёбрам гексов.\n  Кокосовый краб и три пальмы с кокосами на пляже, зверь из другого\n  мира на камнях, огненный камень в раскалённой зоне.\n\nМежду локациями — плитка \"Переход между локациями\".\n",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "Игрок",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Ведущий",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 2
+    }
+  },
+  "Grid": {
+    "Type": 1,
+    "Lines": true,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.35,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": true,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 1.3
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0
+  },
+  "ComponentTags": {
+    "labels": []
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "DecalPallet": [],
+  "LuaScript": "-- Тэйрин, первый прототип. Global-скрипт сцены.\n--\n-- Шаблон: gen_save.py подставляет значения вместо меток в двойных фигурных\n-- скобках и кладёт результат в поле LuaScript сохранения. Править этот файл.\n--\n-- ЗАЧЕМ ЭТОТ СКРИПТ\n--\n-- В документации TTS не написано, что означает Size X для гексагональной\n-- сетки: ширину гекса по вершинам, по граням или шаг между центрами. Разница\n-- между трактовками — 15%, и на глаз она выглядит как «карта не совпадает с\n-- разметкой». Настоящий размер Custom Tile тоже нельзя вычислить заранее: он\n-- зависит от пропорций картинки.\n--\n-- Поэтому вся раскладка считается здесь, в игре, от одного числа — HEX,\n-- реальной ширины гекса сетки в единицах стола. Меняешь HEX меню калибровки,\n-- и доски, и фигурки пересчитываются вместе: карта остаётся привязанной к\n-- гексам при любом размере.\n--\n-- Решётка: гекс (i, j) имеет центр (i*COL, -(j*ROW)), нечётные колонки\n-- сдвинуты вниз на половину. Поле локации садится гексом (0,0) в узел\n-- (gc, gr). Отсюда и центр доски, и позиция каждой фигурки.\n\nlocal NOMINAL = 2.000000       -- размер гекса, заложенный в файл сохранения\nlocal ISLAND  = \"1003a5\"\n\nlocal AREAS = {\n    isl = {guid = \"1003a5\", cols = 13, rows = 8, gc = -10, gr = -4},\n    cmp = {guid = \"1004dc\", cols = 5, rows = 4, gc = 4, gr = 4},\n}\n\nlocal LINK = {guid = \"100613\", area = \"cmp\", c = 2, r = -2, w = 0.7500}\n\nlocal PIECES = {\n    {guid = \"10074a\", area = \"isl\", c = 3, r = 1, w = 0.5750},\n    {guid = \"100881\", area = \"isl\", c = 4, r = 3, w = 0.6250},\n    {guid = \"1009b8\", area = \"isl\", c = 4, r = 4, w = 0.6250},\n    {guid = \"100aef\", area = \"isl\", c = 3, r = 6, w = 0.6250},\n    {guid = \"100c26\", area = \"isl\", c = 6, r = 3, w = 0.6750},\n    {guid = \"100d5d\", area = \"isl\", c = 9, r = 3, w = 0.5000},\n    {guid = \"100e94\", area = \"cmp\", c = 2, r = 0, w = 0.5750},\n    {guid = \"100fcb\", area = \"cmp\", c = 2, r = 2, w = 0.5750},\n}\n\n-- Кандидаты на настоящий размер гекса: единица, 2/sqrt(3), sqrt(3)/2, 4/3,\n-- 3/4 от заложенного. Это и есть перебор трактовок Size X.\nlocal SIZES = {\n    {1.000000, \"как в файле\"},\n    {1.154701, \"Size X = ширина по граням\"},\n    {0.866025, \"Size X = ширина по вершинам, сетка мельче\"},\n    {1.333333, \"Size X = шаг между центрами\"},\n    {0.750000, \"обратный случай\"},\n}\n\nlocal size_i = 1                -- индекс в SIZES\nlocal off_x, off_z = 0, 0       -- сдвиг всей раскладки, в долях гекса\nlocal applied = nil             -- при какой калибровке раскладка уже применена\n\n-- ------------------------------------------------------------------ геометрия\nlocal function hexOf()\n    return NOMINAL * SIZES[size_i][1]\nend\n\nlocal function fitWidth(o, width)\n    if o == nil then return end\n    local size = o.getBounds().size\n    if size.x > 0.01 then\n        local s = o.getScale()\n        local k = width / size.x\n        o.setScale({x = s.x * k, y = s.y * k, z = s.z * k})\n    end\nend\n\nlocal function moveTo(o, x, z)\n    if o == nil then return end\n    local p = o.getPosition()\n    o.setPosition({x = x, y = p.y, z = z})\nend\n\nlocal function layout()\n    local hex = hexOf()\n    local hexH = hex * 0.8660254\n    local col  = hex * 0.75\n    local dx, dz = off_x * hex, off_z * hexH\n\n    for _, a in pairs(AREAS) do\n        local o = getObjectFromGUID(a.guid)\n        fitWidth(o, col * (a.cols - 1) + hex)\n        moveTo(o,\n               col * (2 * a.gc + a.cols - 1) / 2 + dx,\n               -(2 * a.gr + a.rows - 1) * hexH / 2 - hexH / 4 + dz)\n    end\n\n    -- Плитка перехода считается так же, как фигурки: она привязана к гексу\n    -- поля старта (за его краем, отсюда отрицательный ряд).\n    local place = {}\n    for _, p in ipairs(PIECES) do place[#place + 1] = p end\n    place[#place + 1] = LINK\n\n    for _, p in ipairs(place) do\n        local a = AREAS[p.area]\n        local i, j = a.gc + p.c, a.gr + p.r\n        local o = getObjectFromGUID(p.guid)\n        fitWidth(o, p.w * hex)\n        moveTo(o, i * col + dx, -(j * hexH + (i % 2) * hexH / 2) + dz)\n    end\nend\n\nlocal function report()\n    local hex = hexOf()\n    print(string.format(\"Гекс %.4f (%s, x%.4f от %.4f), сдвиг %.2f / %.2f гекса.\",\n                        hex, SIZES[size_i][2], SIZES[size_i][1], NOMINAL, off_x, off_z))\n    local o = getObjectFromGUID(ISLAND)\n    if o ~= nil then\n        local b = o.getBounds().size\n        print(string.format(\"Остров: %.3f x %.3f единиц стола.\", b.x, b.z))\n    end\nend\n\n-- Отпечаток текущей калибровки: по нему видно, менялись ли параметры с\n-- прошлой загрузки.\nlocal function stamp()\n    return string.format(\"%d/%.4f/%.4f\", size_i, off_x, off_z)\nend\n\nlocal function apply()\n    layout()\n    applied = stamp()\n    report()\nend\n\n-- Настройки сетки подобраны в игре под расставленную вручную сцену, поэтому\n-- Offset Y — просто замеренное число, а не доля гекса: раскладка больше не\n-- считается от решётки с началом в (0, 0).\n--\n-- Options -> Grid: Type = гексы, Size X = Size Y = 2, Offset X = 0,\n-- Offset Y = 1.3, Snapping = Center, Show Lines, Thin.\nlocal GRID = {\n    type       = 2,      -- гексы, первый из двух вариантов\n    sizeX      = 2.0,\n    sizeY      = 2.0,    -- равные размеры = неискажённый гекс\n    offsetX    = 0.0,\n    offsetY    = 1.3,\n    snapping   = 3,      -- 1 выкл, 2 по линиям, 3 по центрам, 4 и то и то\n    lines      = true,\n    thickLines = false,\n}\n\nlocal function setupGrid()\n    Grid.type        = GRID.type\n    Grid.sizeX       = GRID.sizeX\n    Grid.sizeY       = GRID.sizeY\n    Grid.offsetX     = GRID.offsetX\n    Grid.offsetY     = GRID.offsetY\n    Grid.snapping    = GRID.snapping\n    Grid.show_lines  = GRID.lines\n    Grid.thick_lines = GRID.thickLines\nend\n\n-- Картинки грузятся асинхронно; пока Custom Tile не догрузился, его габариты\n-- ничего не значат. Раньше скрипт ждал фиксированные 2 секунды и запоминал,\n-- что уже сработал, — карта острова весит 2.5 МБ и не укладывалась.\nlocal function loaded()\n    local ok, res = pcall(function()\n        for _, a in pairs(AREAS) do\n            local o = getObjectFromGUID(a.guid)\n            if o == nil or o.loading_custom == true then return false end\n        end\n        for _, p in ipairs(PIECES) do\n            local o = getObjectFromGUID(p.guid)\n            if o == nil or o.loading_custom == true then return false end\n        end\n        local l = getObjectFromGUID(LINK.guid)\n        if l == nil or l.loading_custom == true then return false end\n        return true\n    end)\n    if not ok then return true end\n    return res\nend\n\n-- ---------------------------------------------------------------------- меню\nlocal function addMenu()\n    local o = getObjectFromGUID(ISLAND)\n    if o == nil then return end\n    o.addContextMenuItem(\"Размер гекса: следующий\", function()\n        size_i = size_i % #SIZES + 1\n        apply()\n    end, true)\n    o.addContextMenuItem(\"Сдвиг: пол-колонки вбок\", function()\n        off_x = (off_x + 0.375) % 0.75\n        apply()\n    end, true)\n    o.addContextMenuItem(\"Сдвиг: пол-ряда вниз\", function()\n        off_z = (off_z + 0.5) % 1.0\n        apply()\n    end, true)\n    o.addContextMenuItem(\"Повернуть гексы сетки\", function()\n        Grid.type = (Grid.type == 2) and 3 or 2\n        print(\"Grid.type = \" .. Grid.type .. \" (2 = horizontal, 3 = vertical)\")\n    end, true)\n    o.addContextMenuItem(\"Сброс калибровки\", function()\n        size_i, off_x, off_z = 1, 0, 0\n        setupGrid()\n        apply()\n    end, true)\n    o.addContextMenuItem(\"Числа в чат\", report, true)\nend\n\n-- Раскладка применяется только когда параметры калибровки изменились (и на\n-- первой загрузке, где их ещё нет). Иначе скрипт при каждом открытии сцены\n-- возвращал бы все фигурки на исходные гексы и стирал ход игры.\n-- ------------------------------------------------------- второй ведущий\n-- Отдельного второго места ведущего в TTS нет: чёрное место одно, и цвет у\n-- него не меняется. Поэтому белый назначен вторым ведущим через Promote —\n-- это почти все права хоста, кроме правки скриптов, импорта своего контента\n-- и изменения кастомных объектов.\n--\n-- Чего Promote НЕ даёт: доступа к тому, что видно только чёрному — GM-заметок\n-- объектов и скрытых зон, привязанных к чёрному цвету. Общие материалы\n-- ведущих лучше держать не в GM-заметках, а в скрытой зоне, заведённой в том\n-- числе на белый.\n\nlocal SECOND_GM = \"White\"\n\nlocal function promoteSecondGM(why)\n    local p = Player[SECOND_GM]\n    if p == nil or not p.seated then return end\n    if p.host then return end          -- у хоста права и так шире\n    if p.promoted then return end\n\n    local ok = pcall(function() p.promoted = true end)\n    if not ok or not p.promoted then   -- на старых сборках поле только у функции\n        pcall(function() p.promote(true) end)\n    end\n    if p.promoted then\n        print(SECOND_GM .. \": выдан Promote, второй ведущий (\" .. why .. \").\")\n    end\nend\n\nfunction onPlayerChangeColor(colour)\n    if colour == SECOND_GM then\n        -- Место занимают не мгновенно: даём игре усадить игрока.\n        Wait.time(function() promoteSecondGM(\"сел за стол\") end, 0.5)\n    end\nend\n\nfunction onSave()\n    return JSON.encode({size_i = size_i, off_x = off_x, off_z = off_z, applied = applied})\nend\n\nfunction onLoad(saved)\n    if saved ~= nil and saved ~= \"\" then\n        local ok, d = pcall(function() return JSON.decode(saved) end)\n        if ok and type(d) == \"table\" then\n            if type(d.size_i) == \"number\" and SIZES[d.size_i] ~= nil then size_i = d.size_i end\n            if type(d.off_x) == \"number\" then off_x = d.off_x end\n            if type(d.off_z) == \"number\" then off_z = d.off_z end\n            if type(d.applied) == \"string\" then applied = d.applied end\n        end\n    end\n    pcall(setupGrid)\n    pcall(addMenu)\n    Wait.time(function() promoteSecondGM(\"загрузка сцены\") end, 1)\n    if applied ~= stamp() then\n        Wait.condition(apply, loaded, 30, apply)\n    end\nend\n",
+  "LuaScriptState": "{\"applied\":\"1/0.0000/0.0000\",\"off_x\":0,\"off_z\":0,\"size_i\":1}",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "ObjectStates": [
+    {
+      "GUID": "200000",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 3.543914,
+        "posZ": -19.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554,
+        "scaleY": 9.1745,
+        "scaleZ": 6.767
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "White",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "200137",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -15.0,
+        "posY": 3.543914,
+        "posZ": -19.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554,
+        "scaleY": 9.1745,
+        "scaleZ": 6.767
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.442999959,
+        "g": 0.230999947,
+        "b": 0.0899999961,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Brown",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "20026e",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 15.0,
+        "posY": 3.543914,
+        "posZ": -19.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554,
+        "scaleY": 9.1745,
+        "scaleZ": 6.767
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999997,
+        "b": 0.09399996,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Red",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "2003a5",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 26.0,
+        "posY": 3.543914,
+        "posZ": -12.5,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554,
+        "scaleY": 9.1745,
+        "scaleZ": 6.767
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9559999,
+        "g": 0.39199996,
+        "b": 0.112999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Orange",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "2004dc",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 26.0,
+        "posY": 3.543914,
+        "posZ": 12.5,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554,
+        "scaleY": 9.1745,
+        "scaleZ": 6.767
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.171999961,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Yellow",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "200613",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -15.0,
+        "posY": 3.543914,
+        "posZ": 19.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554,
+        "scaleY": 9.1745,
+        "scaleZ": 6.767
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.191999972,
+        "g": 0.701,
+        "b": 0.167999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Green",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "20074a",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 3.543914,
+        "posZ": 19.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554,
+        "scaleY": 9.1745,
+        "scaleZ": 6.767
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.24999997,
+        "g": 0.24999997,
+        "b": 0.24999997,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Black",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "200881",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 15.0,
+        "posY": 3.543914,
+        "posZ": 19.5,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554,
+        "scaleY": 9.1745,
+        "scaleZ": 6.767
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.128999949,
+        "g": 0.694,
+        "b": 0.606999934,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Teal",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "2009b8",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -26.0,
+        "posY": 3.543914,
+        "posZ": 12.5,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554,
+        "scaleY": 9.1745,
+        "scaleZ": 6.767
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.117999978,
+        "g": 0.53,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Blue",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "200aef",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -26.0,
+        "posY": 3.543914,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554,
+        "scaleY": 9.1745,
+        "scaleZ": 6.767
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999978,
+        "b": 0.941,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Purple",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "200c26",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -26.0,
+        "posY": 3.543914,
+        "posZ": -12.5,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554,
+        "scaleY": 9.1745,
+        "scaleZ": 6.767
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.96,
+        "g": 0.438999981,
+        "b": 0.807,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Pink",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "1003a5",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -0.000102587794,
+        "posY": 1.2542901,
+        "posZ": -7.794041,
+        "rotX": 359.993774,
+        "rotY": 0.00328234863,
+        "rotZ": -0.00421183929,
+        "scaleX": 7.3625,
+        "scaleY": 1.0,
+        "scaleZ": 7.3625
+      },
+      "Nickname": "Локация 2 — остров",
+      "Description": "Вода, пляж, каменистая земля, раскалённая каменная земля.\n13 x 8 гексов.",
+      "GMNotes": "teyrin:map_island@d7ba6b15",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/11762470185438497975/D7BA6B1592ED7931704676AD7A546D8C98FE57C0/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "1004dc",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -5.75461636E-05,
+        "posY": 1.17914629,
+        "posZ": 9.507781,
+        "rotX": 3.22467375,
+        "rotY": 359.9663,
+        "rotZ": -4.663222E-06,
+        "scaleX": 3.89583373,
+        "scaleY": 1.0,
+        "scaleZ": 3.89583373
+      },
+      "Nickname": "Локация 1 — старт",
+      "Description": "Стартовая локация: здесь игрок встречает NPC.\n5 x 4 гексов.",
+      "GMNotes": "teyrin:map_camp@510d0614",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.129411727,
+        "g": 0.709803939,
+        "b": 0.2980392
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/10435795571907376249/510D06141347248F8DD672AC8ED1E107C79696B8/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "100613",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 0.000172076936,
+        "posY": 0.960000157,
+        "posZ": 2.59346557,
+        "rotX": -4.06830338E-07,
+        "rotY": 359.956543,
+        "rotZ": -1.56119268E-06,
+        "scaleX": 1.5,
+        "scaleY": 1.0,
+        "scaleZ": 1.5
+      },
+      "Nickname": "Переход между локациями",
+      "Description": "Связь между локацией 1 и локацией 2.",
+      "GMNotes": "teyrin:transition@3fa568fd",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": true,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/12966593185661832953/3FA568FDFF7DB368B4941E5D7684C0F86960936C/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "10074a",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 4.49999666,
+        "posY": 1.49356174,
+        "posZ": -11.6903591,
+        "rotX": 0.00622222573,
+        "rotY": 180.018936,
+        "rotZ": 0.00421482837,
+        "scaleX": 0.838246167,
+        "scaleY": 0.838246167,
+        "scaleZ": 0.838246167
+      },
+      "Nickname": "Кокосовый краб",
+      "Description": "Пляж.",
+      "GMNotes": "teyrin:fig_crab@8992b9a3",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/12356229599550531115/8992B9A3C5011A739BAD53E300D0303A53B11B2D/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomFigurine": {
+          "UseMinimalCollider": false,
+          "MirroredBack": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "100881",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 4.49999237,
+        "posY": 1.50667787,
+        "posZ": -3.03012276,
+        "rotX": 0.006220654,
+        "rotY": 180.036774,
+        "rotZ": 0.004216756,
+        "scaleX": 0.911137164,
+        "scaleY": 0.911137164,
+        "scaleZ": 0.911137164
+      },
+      "Nickname": "Пальма с кокосами",
+      "Description": "Пляж.",
+      "GMNotes": "teyrin:fig_palm@ee6dfc86",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/13783775776064790020/EE6DFC864607BB31FBA3056C9341E3533D0E1779/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomFigurine": {
+          "UseMinimalCollider": false,
+          "MirroredBack": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "1009b8",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 2.99999833,
+        "posY": 1.50594211,
+        "posZ": -10.8243313,
+        "rotX": 0.0062236283,
+        "rotY": 179.986832,
+        "rotZ": 0.00420998968,
+        "scaleX": 0.911137164,
+        "scaleY": 0.911137164,
+        "scaleZ": 0.911137164
+      },
+      "Nickname": "Пальма с кокосами",
+      "Description": "Пляж.",
+      "GMNotes": "teyrin:fig_palm@ee6dfc86",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/13783775776064790020/EE6DFC864607BB31FBA3056C9341E3533D0E1779/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomFigurine": {
+          "UseMinimalCollider": false,
+          "MirroredBack": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "100aef",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 2.99999452,
+        "posY": 1.50650609,
+        "posZ": -5.628196,
+        "rotX": 0.006222805,
+        "rotY": 180.003784,
+        "rotZ": 0.00421208469,
+        "scaleX": 0.911137164,
+        "scaleY": 0.911137164,
+        "scaleZ": 0.911137164
+      },
+      "Nickname": "Пальма с кокосами",
+      "Description": "Пляж.",
+      "GMNotes": "teyrin:fig_palm@ee6dfc86",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/13783775776064790020/EE6DFC864607BB31FBA3056C9341E3533D0E1779/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomFigurine": {
+          "UseMinimalCollider": false,
+          "MirroredBack": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "100c26",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -3.000003,
+        "posY": 1.47500181,
+        "posZ": -14.2884569,
+        "rotX": 0.00622396963,
+        "rotY": 180.016449,
+        "rotZ": 0.004214587,
+        "scaleX": 0.7255276,
+        "scaleY": 0.7255276,
+        "scaleZ": 0.7255276
+      },
+      "Nickname": "Зверь из другого мира",
+      "Description": "Каменистая земля.",
+      "GMNotes": "teyrin:fig_beast@571b4f4a",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/17383708140097247225/571B4F4AD0CCC2E8490CFAC45EB502CD591B6D54/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomFigurine": {
+          "UseMinimalCollider": false,
+          "MirroredBack": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "100d5d",
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -4.49999857,
+        "posY": 1.454574,
+        "posZ": -8.22628,
+        "rotX": 359.993774,
+        "rotY": 0.0006593421,
+        "rotZ": -0.00421406562,
+        "scaleX": 0.317488968,
+        "scaleY": 1.0,
+        "scaleZ": 0.317488968
+      },
+      "Nickname": "Огненный камень",
+      "Description": "Центр раскалённой каменной земли.",
+      "GMNotes": "teyrin:tok_firestone@f32d9ecb",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/10301128677259830195/F32D9ECB792ED79C3F95398D62B7D0653E6A0F15/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "100e94",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": -1.49955893,
+        "posY": 1.24714828,
+        "posZ": 12.5669613,
+        "rotX": 356.7738,
+        "rotY": 180.015808,
+        "rotZ": -0.00168582331,
+        "scaleX": 0.838246167,
+        "scaleY": 0.838246167,
+        "scaleZ": 0.838246167
+      },
+      "Nickname": "NPC",
+      "Description": "",
+      "GMNotes": "teyrin:fig_npc@7db6b350",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/15890067630906405027/7DB6B350713CC6860F1E81AE05B0007DA768416F/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomFigurine": {
+          "UseMinimalCollider": false,
+          "MirroredBack": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "100fcb",
+      "Name": "Figurine_Custom",
+      "Transform": {
+        "posX": 3.00015259,
+        "posY": 1.29678488,
+        "posZ": 11.6885958,
+        "rotX": 356.7738,
+        "rotY": 179.982773,
+        "rotZ": 0.000176235291,
+        "scaleX": 0.838246167,
+        "scaleY": 0.838246167,
+        "scaleZ": 0.838246167
+      },
+      "Nickname": "Вы",
+      "Description": "",
+      "GMNotes": "teyrin:fig_player@3cefe3f9",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/12290911994702787674/3CEFE3F9D018134C0F9FB12445F293CC5322993C/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomFigurine": {
+          "UseMinimalCollider": false,
+          "MirroredBack": false
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "2dc778",
+      "Name": "Deck",
+      "Transform": {
+        "posX": 12.0000963,
+        "posY": 0.995372534,
+        "posZ": -14.2884636,
+        "rotX": 9.894141E-08,
+        "rotY": -0.00057683,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Карты снаряжения",
+      "Description": "",
+      "GMNotes": "teyrin:gear@676140fe",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        402,
+        401,
+        400
+      ],
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/9677293470119567578/C03CAC0383194611F4E119898ED7CAB678709FAD/",
+          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/13512282855184550259/005A2A192D0F203C1ACDE12CE4BC8F5AD04B4E92/",
+          "NumWidth": 3,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "102a85",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 12.0000334,
+            "posY": 1.13074493,
+            "posZ": -14.2884569,
+            "rotX": -5.59537376E-08,
+            "rotY": -0.00022753638,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Перчатки с огненным кристалом",
+          "Description": "Карты: Раскаление, Огненный шар, Быстрая стрельба искрами\n\nТип: Руки",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 402,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/9677293470119567578/C03CAC0383194611F4E119898ED7CAB678709FAD/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/13512282855184550259/005A2A192D0F203C1ACDE12CE4BC8F5AD04B4E92/",
+              "NumWidth": 3,
+              "NumHeight": 1,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "10294e",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 12.0000343,
+            "posY": 1.12111676,
+            "posZ": -14.2884579,
+            "rotX": -8.52497664E-08,
+            "rotY": -0.000265815528,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Примитивный лук",
+          "Description": "Карты: лук. Атака: наносит 4 пронзающего урона, дальность 25\n\nТип: Оружие",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 401,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/9677293470119567578/C03CAC0383194611F4E119898ED7CAB678709FAD/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/13512282855184550259/005A2A192D0F203C1ACDE12CE4BC8F5AD04B4E92/",
+              "NumWidth": 3,
+              "NumHeight": 1,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "102817",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 12.0000343,
+            "posY": 0.9599994,
+            "posZ": -14.2884579,
+            "rotX": -8.52497664E-08,
+            "rotY": -0.000265815528,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Примитивное копье",
+          "Description": "Карты: копье. Атака: наносит 6 пронзающего урона, дальность 2\n\nТип: Оружие",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 400,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/9677293470119567578/C03CAC0383194611F4E119898ED7CAB678709FAD/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/13512282855184550259/005A2A192D0F203C1ACDE12CE4BC8F5AD04B4E92/",
+              "NumWidth": 3,
+              "NumHeight": 1,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      ]
+    },
+    {
+      "GUID": "a3a724",
+      "Name": "Deck",
+      "Transform": {
+        "posX": 12.0000076,
+        "posY": 1.0675832,
+        "posZ": -10.8243561,
+        "rotX": 3.47304933E-07,
+        "rotY": 180.008835,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Карты действий",
+      "Description": "",
+      "GMNotes": "teyrin:actions@9b71451d",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        503,
+        502,
+        510,
+        508,
+        501,
+        514,
+        506,
+        505,
+        517,
+        509,
+        513,
+        500,
+        507,
+        516,
+        512,
+        515,
+        504,
+        511
+      ],
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+          "NumWidth": 5,
+          "NumHeight": 4,
+          "BackIsHidden": true,
+          "UniqueBack": true,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "1014a7",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": -8.0,
+            "posY": 2.2,
+            "posZ": -10.5,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Сильный выпад копьём",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Сильный выпад копьём — ОД 4, вын. 1\nАтака: урон +3\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 503,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "101370",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 17.9999962,
+            "posY": 1.15795755,
+            "posZ": -0.4320524,
+            "rotX": -0.00125631725,
+            "rotY": 7.28099039E-05,
+            "rotZ": 180.001587,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Общее размышление / Общее  размышление+",
+          "Description": "Верх: Общее размышление — ОД 3, вын. 0\nВы берете 2 карты\n\nНиз: Общее  размышление+ — ОД 4, вын. 0\nВы берете 3 карты, ваша следующая карта стоит на 1 меньеше",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 502,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "101d28",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": -8.0,
+            "posY": 3.6,
+            "posZ": -10.5,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Рывок с копьем",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Рывок с копьем — ОД 4, вын. 2\nПередвижение на 3 гекса, Атака +1\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 510,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "101aba",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": -8.0,
+            "posY": 3.2,
+            "posZ": -10.5,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Блок древком",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Блок древком — ОД 3, вын. 2\nРеакция: Блокирование 5\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 508,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "101239",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 15.0000305,
+            "posY": 1.00838387,
+            "posZ": -2.16406941,
+            "rotX": 0.0237249918,
+            "rotY": -7.065919E-05,
+            "rotZ": 359.977539,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Общая подготовка / Общая подготовка+",
+          "Description": "Верх: Общая подготовка — ОД 2, вын. 0\nВаша следующая карта стоит на 2 меньеше\n\nНиз: Общая подготовка+ — ОД 3, вын. 0\nДве ваши следующие карты стоит на 2 меньеше",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 501,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "102204",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 15.0050631,
+            "posY": 1.075215,
+            "posZ": -10.8243837,
+            "rotX": 0.5445071,
+            "rotY": 119.951019,
+            "rotZ": 0.03835079,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Раскаление / Раскаление+",
+          "Description": "Верх: Раскаление — ОД 2, вын. 3\nВы получаете 1 стак Огня\n\nНиз: Раскаление+ — ОД 3, вын. 5\nВы получаете 2 стака Огня\n\nПринадлежность: Огонь",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 514,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "10184c",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": -8.0,
+            "posY": 2.8,
+            "posZ": -10.5,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Комбо выпад копьем",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Комбо выпад копьем — ОД 4, вын. 1\nАтака, ваша следующая карта стоит на 2 меньеше\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 506,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "101715",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": -8.0,
+            "posY": 2.6,
+            "posZ": -10.5,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Быстрый выпад копьем",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Быстрый выпад копьем — ОД 2, вын. 1\nАтака: урон -2; Эхо\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 505,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "1025a9",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 15.0000029,
+            "posY": 1.04241872,
+            "posZ": -2.16410136,
+            "rotX": 0.0009275443,
+            "rotY": 165.003815,
+            "rotZ": 0.00165381993,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Ожог",
+          "Description": "Верх: Ожог — ОД —, вын. —\nПри взятии наносит 1 урона огнем, сбрасывается в начале хода\n\nПринадлежность: Боль",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 517,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "101bf1",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 15.0012178,
+            "posY": 1.12340093,
+            "posZ": -10.8243837,
+            "rotX": 0.116976246,
+            "rotY": 180.026688,
+            "rotZ": 3.2477057,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Упреждающий выпад копьем",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Упреждающий выпад копьем — ОД 4, вын. 1\nРеакция: Атака\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 509,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "1020cd",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": -8.0,
+            "posY": 4.2,
+            "posZ": -10.5,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выстрел из лука / Точный выстрел из лука",
+          "Description": "Верх: Выстрел из лука — ОД 8, вын. 3\nАтака\n\nНиз: Точный выстрел из лука — ОД 10, вын. 3\nАтака: урон +3, дальность +10\n\nПринадлежность: Лук",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 513,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "101102",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 15.0000143,
+            "posY": 0.9735549,
+            "posZ": -2.164103,
+            "rotX": -0.0024483914,
+            "rotY": 165.003677,
+            "rotZ": 0.00399530865,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Уворот / Прыжок уворот",
+          "Description": "Верх: Уворот — ОД 4, вын. 2\nРеакция: Уворот 1\n\nНиз: Прыжок уворот — ОД 5, вын. 3\nРеакция: Уворот 3",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 500,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "101983",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": -8.0,
+            "posY": 3.0,
+            "posZ": -10.5,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Тактический выпад копьем",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Тактический выпад копьем — ОД 3, вын. 1\nАтака:  урон -2, вы берете карту\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 507,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "102472",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 15.0000143,
+            "posY": 1.09506428,
+            "posZ": -10.8243637,
+            "rotX": 0.3207259,
+            "rotY": 150.0137,
+            "rotZ": 0.241995573,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Клеймо / Клеймо+",
+          "Description": "Верх: Клеймо — ОД 2, вын. 2\nНаносит 2 урона огнем, дальность 1, замешивает карту Ожог в колоду противника за каждые 2 нанесённого урона\n\nНиз: Клеймо+ — ОД 4, вын. 4\nНаносит 6 урона огнем, дальность 1, замешивает карту Ожог в колоду противника за каждые 2 нанесённого урона\n\nПринадлежность: Огонь",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 516,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "101f96",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 15.0,
+            "posY": 1.06198418,
+            "posZ": -10.8243551,
+            "rotX": -0.00161841628,
+            "rotY": 150.0,
+            "rotZ": 180.000717,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выстрел из лука / Упреждающий выстрел из лука",
+          "Description": "Верх: Выстрел из лука — ОД 8, вын. 3\nАтака\n\nНиз: Упреждающий выстрел из лука — ОД 10, вын. 3\nРеакция: Атака\n\nПринадлежность: Лук",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 512,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "10233b",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": -8.0,
+            "posY": 4.6,
+            "posZ": -10.5,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Огненный шар / Струя огня",
+          "Description": "Верх: Огненный шар — ОД 8, вын. 8\nНаносит 6 урона огнем, дальность 10, радиус 2\n\nНиз: Струя огня — ОД 2, вын. 2\nНаносит 1 урона огнем, дальность 3, Эхо\n\nПринадлежность: Огонь",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 515,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "1015de",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": -8.0,
+            "posY": 2.4,
+            "posZ": -10.5,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Дальний выпад копьем",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Дальний выпад копьем — ОД 4, вын. 1\nАтака: урон -1, дальность +1\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 504,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "101e5f",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 15.0043287,
+            "posY": 1.06283379,
+            "posZ": -10.8238707,
+            "rotX": 0.09744174,
+            "rotY": 119.981232,
+            "rotZ": 0.132118866,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выстрел из лука / Быстрый выстрел из лука",
+          "Description": "Верх: Выстрел из лука — ОД 8, вын. 3\nАтака\n\nНиз: Быстрый выстрел из лука — ОД 5, вын. 2\nАтака: урон -1, дальность -10; Эхо\n\nПринадлежность: Лук",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 511,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11724725375033890033/D044DD5CBB751B6F6CCD4BC96ED2DCA2A8818F84/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/15536153241317935699/88A2BFFC4754391F8011EFBBAD2E8E979512C444/",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      ]
+    },
+    {
+      "GUID": "561609",
+      "Name": "Die_20",
+      "Transform": {
+        "posX": -6.00000048,
+        "posY": 1.37810576,
+        "posZ": 11.6923046,
+        "rotX": 10.812336,
+        "rotY": 180.7224,
+        "rotZ": 198.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "RotationValues": [
+        {
+          "Value": "1",
+          "Rotation": {
+            "x": -11.0,
+            "y": 60.0,
+            "z": 17.0
+          }
+        },
+        {
+          "Value": "2",
+          "Rotation": {
+            "x": 52.0,
+            "y": -60.0,
+            "z": -17.0
+          }
+        },
+        {
+          "Value": "3",
+          "Rotation": {
+            "x": -11.0,
+            "y": -180.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "4",
+          "Rotation": {
+            "x": -11.0,
+            "y": -180.0,
+            "z": 162.0
+          }
+        },
+        {
+          "Value": "5",
+          "Rotation": {
+            "x": -11.0,
+            "y": -60.0,
+            "z": 234.0
+          }
+        },
+        {
+          "Value": "6",
+          "Rotation": {
+            "x": -11.0,
+            "y": -180.0,
+            "z": 306.0
+          }
+        },
+        {
+          "Value": "7",
+          "Rotation": {
+            "x": 52.0,
+            "y": -60.0,
+            "z": 55.0
+          }
+        },
+        {
+          "Value": "8",
+          "Rotation": {
+            "x": 52.0,
+            "y": -60.0,
+            "z": 198.0
+          }
+        },
+        {
+          "Value": "9",
+          "Rotation": {
+            "x": 52.0,
+            "y": -60.0,
+            "z": 127.0
+          }
+        },
+        {
+          "Value": "10",
+          "Rotation": {
+            "x": 52.0,
+            "y": -180.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": "11",
+          "Rotation": {
+            "x": 308.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "12",
+          "Rotation": {
+            "x": 306.0,
+            "y": -240.0,
+            "z": -52.0
+          }
+        },
+        {
+          "Value": "13",
+          "Rotation": {
+            "x": -52.0,
+            "y": -240.0,
+            "z": 18.0
+          }
+        },
+        {
+          "Value": "14",
+          "Rotation": {
+            "x": 307.0,
+            "y": 120.0,
+            "z": 233.0
+          }
+        },
+        {
+          "Value": "15",
+          "Rotation": {
+            "x": 11.0,
+            "y": 120.0,
+            "z": -234.0
+          }
+        },
+        {
+          "Value": "16",
+          "Rotation": {
+            "x": 11.0,
+            "y": 0.0,
+            "z": 54.0
+          }
+        },
+        {
+          "Value": "17",
+          "Rotation": {
+            "x": 11.0,
+            "y": -120.0,
+            "z": -17.0
+          }
+        },
+        {
+          "Value": "18",
+          "Rotation": {
+            "x": 11.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": "19",
+          "Rotation": {
+            "x": -52.0,
+            "y": -240.0,
+            "z": -198.0
+          }
+        },
+        {
+          "Value": "20",
+          "Rotation": {
+            "x": 11.0,
+            "y": 0.0,
+            "z": -162.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "901584",
+      "Name": "Die_10",
+      "Transform": {
+        "posX": -7.500003,
+        "posY": 1.3223983,
+        "posZ": 7.362178,
+        "rotX": 38.6516,
+        "rotY": 1.52302551,
+        "rotZ": 270.451752,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.6463414,
+        "g": 0.6463414,
+        "b": 0.6463414
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "RotationValues": [
+        {
+          "Value": "1",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 234.0
+          }
+        },
+        {
+          "Value": "2",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -233.0
+          }
+        },
+        {
+          "Value": "3",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 20.0
+          }
+        },
+        {
+          "Value": "4",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -17.0
+          }
+        },
+        {
+          "Value": "5",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "6",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -161.0
+          }
+        },
+        {
+          "Value": "7",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 307.0
+          }
+        },
+        {
+          "Value": "8",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -304.0
+          }
+        },
+        {
+          "Value": "9",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 163.0
+          }
+        },
+        {
+          "Value": "10",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -90.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "dc6251",
+      "Name": "Die_10",
+      "Transform": {
+        "posX": -6.00000238,
+        "posY": 1.32239914,
+        "posZ": 8.228203,
+        "rotX": 38.65158,
+        "rotY": 1.52375114,
+        "rotZ": 270.45163,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.409407616,
+        "g": 0.409407616,
+        "b": 0.409407616
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "RotationValues": [
+        {
+          "Value": "1",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 234.0
+          }
+        },
+        {
+          "Value": "2",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -233.0
+          }
+        },
+        {
+          "Value": "3",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 20.0
+          }
+        },
+        {
+          "Value": "4",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -17.0
+          }
+        },
+        {
+          "Value": "5",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "6",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -161.0
+          }
+        },
+        {
+          "Value": "7",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 307.0
+          }
+        },
+        {
+          "Value": "8",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -304.0
+          }
+        },
+        {
+          "Value": "9",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 163.0
+          }
+        },
+        {
+          "Value": "10",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -90.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "5ff86d",
+      "Name": "Die_10",
+      "Transform": {
+        "posX": -6.00000334,
+        "posY": 1.32239783,
+        "posZ": 9.960253,
+        "rotX": 38.65158,
+        "rotY": 358.975861,
+        "rotZ": 270.45166,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.046810694,
+        "g": 0.2770033,
+        "b": 0.1151491
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "RotationValues": [
+        {
+          "Value": "1",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 234.0
+          }
+        },
+        {
+          "Value": "2",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -233.0
+          }
+        },
+        {
+          "Value": "3",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 20.0
+          }
+        },
+        {
+          "Value": "4",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -17.0
+          }
+        },
+        {
+          "Value": "5",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "6",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -161.0
+          }
+        },
+        {
+          "Value": "7",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 307.0
+          }
+        },
+        {
+          "Value": "8",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -304.0
+          }
+        },
+        {
+          "Value": "9",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 163.0
+          }
+        },
+        {
+          "Value": "10",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -90.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "10699a",
+      "Name": "Die_10",
+      "Transform": {
+        "posX": -7.50000334,
+        "posY": 1.32239819,
+        "posZ": 9.094229,
+        "rotX": 38.65159,
+        "rotY": 359.023346,
+        "rotZ": 270.451752,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.08563609,
+        "g": 0.517421544,
+        "b": 0.211732686
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "RotationValues": [
+        {
+          "Value": "1",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 234.0
+          }
+        },
+        {
+          "Value": "2",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -233.0
+          }
+        },
+        {
+          "Value": "3",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 20.0
+          }
+        },
+        {
+          "Value": "4",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -17.0
+          }
+        },
+        {
+          "Value": "5",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "6",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -161.0
+          }
+        },
+        {
+          "Value": "7",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 307.0
+          }
+        },
+        {
+          "Value": "8",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -304.0
+          }
+        },
+        {
+          "Value": "9",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 163.0
+          }
+        },
+        {
+          "Value": "10",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -90.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "bc7789",
+      "Name": "Die_10",
+      "Transform": {
+        "posX": -7.501746,
+        "posY": 1.32239842,
+        "posZ": 10.8258352,
+        "rotX": 38.65157,
+        "rotY": 359.024231,
+        "rotZ": 270.4517,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.647058368,
+        "g": 0.785714149,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "RotationValues": [
+        {
+          "Value": "1",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 234.0
+          }
+        },
+        {
+          "Value": "2",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -233.0
+          }
+        },
+        {
+          "Value": "3",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 20.0
+          }
+        },
+        {
+          "Value": "4",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -17.0
+          }
+        },
+        {
+          "Value": "5",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "6",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -161.0
+          }
+        },
+        {
+          "Value": "7",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 307.0
+          }
+        },
+        {
+          "Value": "8",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -304.0
+          }
+        },
+        {
+          "Value": "9",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 163.0
+          }
+        },
+        {
+          "Value": "10",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -90.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "300aef",
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 12.0,
+        "posY": 1.0194428,
+        "posZ": 11.0,
+        "rotX": 1.33517418E-07,
+        "rotY": -4.96109243E-09,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Карты зверя",
+      "Description": "Колода Зверя из другого мира: 8 карт.",
+      "GMNotes": "teyrin:beast@c3a0aa79",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607
+      ],
+      "CustomDeck": {
+        "6": {
+          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/18407714436346839463/257B82B1BAB36B6F29016F972FE7550FE12ADAC0/",
+          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/13891410759957292276/C02D88B27EFBDA08A79BE28566FDF80E4E327F09/",
+          "NumWidth": 4,
+          "NumHeight": 2,
+          "BackIsHidden": true,
+          "UniqueBack": true,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "300137",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 12.0,
+            "posY": 1.6,
+            "posZ": 11.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Взмах когтями / Быстрый взмах когтями",
+          "Description": "Верх: Взмах когтями — ОД 3, вын. 1\nНаносит 4 пронзающего урона, дальность 1\n\nНиз: Быстрый взмах когтями — ОД 2, вын. 1\nНаносит 2 пронзающего урона, дальность 1; Эхо\n\nПринадлежность: Когти",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 600,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/18407714436346839463/257B82B1BAB36B6F29016F972FE7550FE12ADAC0/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/13891410759957292276/C02D88B27EFBDA08A79BE28566FDF80E4E327F09/",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "30026e",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 12.0,
+            "posY": 1.8,
+            "posZ": 11.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Взмах когтями / Бросить добычу",
+          "Description": "Верх: Взмах когтями — ОД 3, вын. 1\nНаносит 4 пронзающего урона, дальность 1\n\nНиз: Бросить добычу — ОД 5, вын. 3\nНаносит 8 дробящего урона, дальность 1, цель передвигается на 2 гекса\n\nПринадлежность: Когти",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 601,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/18407714436346839463/257B82B1BAB36B6F29016F972FE7550FE12ADAC0/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/13891410759957292276/C02D88B27EFBDA08A79BE28566FDF80E4E327F09/",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "3003a5",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 12.0,
+            "posY": 2.0,
+            "posZ": 11.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Взмах когтями / Огрызнуться",
+          "Description": "Верх: Взмах когтями — ОД 3, вын. 1\nНаносит 4 пронзающего урона, дальность 1\n\nНиз: Огрызнуться — ОД 4, вын. 2\nРеакция: наносит 4 дробящего урона, дальность 1\n\nПринадлежность: Когти",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 602,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/18407714436346839463/257B82B1BAB36B6F29016F972FE7550FE12ADAC0/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/13891410759957292276/C02D88B27EFBDA08A79BE28566FDF80E4E327F09/",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "3004dc",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 12.0,
+            "posY": 2.2,
+            "posZ": 11.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Прыжок с наскока / Прыжок с наскока+",
+          "Description": "Верх: Прыжок с наскока — ОД 4, вын. 3\nПередвижение на 3 гекса, наносит 5 пронзающего урона, дальность 1\n\nНиз: Прыжок с наскока+ — ОД 5, вын. 3\nПередвижение на 4 гекса, наносит 7 пронзающего урона, дальность 1\n\nПринадлежность: Когти",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 603,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/18407714436346839463/257B82B1BAB36B6F29016F972FE7550FE12ADAC0/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/13891410759957292276/C02D88B27EFBDA08A79BE28566FDF80E4E327F09/",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "300613",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 12.0,
+            "posY": 2.4,
+            "posZ": 11.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Скользнуть мимо / Ощетиниться",
+          "Description": "Верх: Скользнуть мимо — ОД 3, вын. 1\nРеакция: Уворот 1; Эхо\n\nНиз: Ощетиниться — ОД 4, вын. 3\nРеакция: Блокирование 8",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 604,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/18407714436346839463/257B82B1BAB36B6F29016F972FE7550FE12ADAC0/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/13891410759957292276/C02D88B27EFBDA08A79BE28566FDF80E4E327F09/",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "30074a",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 12.0,
+            "posY": 2.6,
+            "posZ": 11.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Затаиться / Выследить",
+          "Description": "Верх: Затаиться — ОД 2, вын. 0\nВаша следующая карта стоит на 2 меньше\n\nНиз: Выследить — ОД 3, вын. 0\nВы берете 2 карты",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 605,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/18407714436346839463/257B82B1BAB36B6F29016F972FE7550FE12ADAC0/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/13891410759957292276/C02D88B27EFBDA08A79BE28566FDF80E4E327F09/",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "300881",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 12.0,
+            "posY": 2.8,
+            "posZ": 11.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Рваная рана / Рваная рана+",
+          "Description": "Верх: Рваная рана — ОД 3, вын. 2\nНаносит 2 пронзающего урона, дальность 1, замешивает карту Кровотечение в колоду противника\n\nНиз: Рваная рана+ — ОД 5, вын. 3\nНаносит 5 пронзающего урона, дальность 1, замешивает 2 карты Кровотечение в колоду противника\n\nПринадлежность: Когти",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 606,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/18407714436346839463/257B82B1BAB36B6F29016F972FE7550FE12ADAC0/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/13891410759957292276/C02D88B27EFBDA08A79BE28566FDF80E4E327F09/",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "3009b8",
+          "Name": "CardCustom",
+          "Transform": {
+            "posX": 12.0,
+            "posY": 3.0,
+            "posZ": 11.0,
+            "rotX": 0.0,
+            "rotY": 0.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Кровотечение",
+          "Description": "Верх: Кровотечение — ОД —, вын. —\nПри взятии наносит 1 урона и расходует 1 выносливости, сбрасывается в начале хода\n\nПринадлежность: Боль",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "CardID": 607,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "3": {
+              "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/18407714436346839463/257B82B1BAB36B6F29016F972FE7550FE12ADAC0/",
+              "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/13891410759957292276/C02D88B27EFBDA08A79BE28566FDF80E4E327F09/",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      ]
+    },
+    {
+      "GUID": "7a871b",
+      "Name": "Die_10",
+      "Transform": {
+        "posX": -9.000004,
+        "posY": 1.32239866,
+        "posZ": 8.228203,
+        "rotX": 38.6515579,
+        "rotY": 359.1918,
+        "rotZ": 270.451782,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.141816288,
+        "g": 0.7752612,
+        "b": 0.322800636
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "RotationValues": [
+        {
+          "Value": "1",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 234.0
+          }
+        },
+        {
+          "Value": "2",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -233.0
+          }
+        },
+        {
+          "Value": "3",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 20.0
+          }
+        },
+        {
+          "Value": "4",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -17.0
+          }
+        },
+        {
+          "Value": "5",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "6",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -161.0
+          }
+        },
+        {
+          "Value": "7",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 307.0
+          }
+        },
+        {
+          "Value": "8",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -304.0
+          }
+        },
+        {
+          "Value": "9",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 163.0
+          }
+        },
+        {
+          "Value": "10",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -90.0
+          }
+        }
+      ]
+    }
+  ]
+}
