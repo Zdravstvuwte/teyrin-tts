@@ -311,13 +311,16 @@ def git(*args):
 
 
 def publish(message):
-    """Коммит и push. Возвращает True, если было что публиковать."""
+    """Коммит и push. Возвращает подпись коммита или None, если было нечего."""
     git("add", "-A")
-    if not git("status", "--porcelain"):
-        return False
-    git("commit", "-q", "-m", message)
+    status = git("status", "--porcelain")
+    if not status:
+        return None
+    if message is None:                 # объекты не менялись: что тогда в коммите?
+        message = "расстановка сцены" if "save/" in status else "правки в репозитории"
+    git("commit", "-q", "-m", "sync: " + message[:200])
     git("push", "-q")
-    return True
+    return message
 
 
 def wait_public(urls, tries=15, pause=2):
@@ -389,8 +392,8 @@ def main():
         print("\n--no-push: не опубликовано. Игра не увидит новые картинки, пока не сделан push.")
         return
 
-    summary = "; ".join("%s %s" % (w, who) for w, who, _ in changed) or "расстановка сцены"
-    if publish("sync: " + summary[:200]):
+    summary = publish("; ".join("%s %s" % (w, who) for w, who, _ in changed) or None)
+    if summary:
         wait_public([u for _, u, _ in hot_images]
                     + [url(k + "_face") for k, _ in hot_decks]
                     + [url(k + "_back") for k, _ in hot_decks])
