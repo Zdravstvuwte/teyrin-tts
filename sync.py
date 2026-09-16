@@ -266,8 +266,9 @@ def thumb_from(path, crop=None, size=256):
 
 def write_chest(objs):
     from PIL import Image
-    if os.path.isdir(CHEST):
-        shutil.rmtree(CHEST)
+    # Папка TTS лежит в OneDrive, и он часто держит каталоги открытыми: файлы
+    # удаляются, а сам каталог — нет. Это не мешает: он тут же заполняется заново.
+    shutil.rmtree(CHEST, ignore_errors=True)
     n = 0
     for entry in scene.DECKS:
         deck = next((o for o in objs if is_deck(o) and mark_of(o)[0] == entry["key"]), None)
