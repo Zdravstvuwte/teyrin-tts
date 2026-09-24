@@ -1,7 +1,7 @@
 {
   "SaveName": "Тэйрин — прототип",
-  "EpochTime": 1789521649,
-  "Date": "9/16/2026 4:20:49 AM",
+  "EpochTime": 1790082570,
+  "Date": "9/22/2026 4:09:30 PM",
   "VersionNumber": "v14.2.2",
   "GameMode": "Тэйрин — первый прототип",
   "GameType": "",
@@ -716,9 +716,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.129411727,
+        "r": 0.129411548,
         "g": 0.709803939,
-        "b": 0.2980392
+        "b": 0.298039019
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -754,12 +754,12 @@
       "GUID": "100613",
       "Name": "Custom_Tile",
       "Transform": {
-        "posX": 0.000172076936,
+        "posX": 0.000172225511,
         "posY": 0.960000157,
         "posZ": 2.59346557,
-        "rotX": -4.06830338e-07,
+        "rotX": -3.08112362e-07,
         "rotY": 359.956543,
-        "rotZ": -1.56119268e-06,
+        "rotZ": -1.79979645e-06,
         "scaleX": 1.5,
         "scaleY": 1.0,
         "scaleZ": 1.5
@@ -813,10 +813,10 @@
       "Transform": {
         "posX": 4.49999666,
         "posY": 1.49356174,
-        "posZ": -11.6903591,
-        "rotX": 0.00622222573,
-        "rotY": 180.018936,
-        "rotZ": 0.00421482837,
+        "posZ": -11.6903534,
+        "rotX": 0.00622231839,
+        "rotY": 180.0189,
+        "rotZ": 0.00421450567,
         "scaleX": 0.838246167,
         "scaleY": 0.838246167,
         "scaleZ": 0.838246167
@@ -869,9 +869,9 @@
         "posX": 4.49999237,
         "posY": 1.50667787,
         "posZ": -3.03012276,
-        "rotX": 0.006220654,
+        "rotX": 0.00622031745,
         "rotY": 180.036774,
-        "rotZ": 0.004216756,
+        "rotZ": 0.00421632966,
         "scaleX": 0.911137164,
         "scaleY": 0.911137164,
         "scaleZ": 0.911137164
@@ -921,12 +921,12 @@
       "GUID": "1009b8",
       "Name": "Figurine_Custom",
       "Transform": {
-        "posX": 2.99999833,
+        "posX": 2.99999881,
         "posY": 1.50594211,
-        "posZ": -10.8243313,
-        "rotX": 0.0062236283,
+        "posZ": -10.8243256,
+        "rotX": 0.006223545,
         "rotY": 179.986832,
-        "rotZ": 0.00420998968,
+        "rotZ": 0.00421030959,
         "scaleX": 0.911137164,
         "scaleY": 0.911137164,
         "scaleZ": 0.911137164
@@ -979,9 +979,9 @@
         "posX": 2.99999452,
         "posY": 1.50650609,
         "posZ": -5.628196,
-        "rotX": 0.006222805,
+        "rotX": 0.00622254563,
         "rotY": 180.003784,
-        "rotZ": 0.00421208469,
+        "rotZ": 0.004211978,
         "scaleX": 0.911137164,
         "scaleY": 0.911137164,
         "scaleZ": 0.911137164
@@ -1031,12 +1031,12 @@
       "GUID": "100c26",
       "Name": "Figurine_Custom",
       "Transform": {
-        "posX": -3.000003,
-        "posY": 1.47500181,
-        "posZ": -14.2884569,
-        "rotX": 0.00622396963,
-        "rotY": 180.016449,
-        "rotZ": 0.004214587,
+        "posX": -15.0,
+        "posY": 1.08119583,
+        "posZ": -10.8243551,
+        "rotX": -1.6255558e-07,
+        "rotY": 180.016373,
+        "rotZ": -1.06744928e-07,
         "scaleX": 0.7255276,
         "scaleY": 0.7255276,
         "scaleZ": 0.7255276
@@ -1086,12 +1086,12 @@
       "GUID": "100d5d",
       "Name": "Custom_Token",
       "Transform": {
-        "posX": -4.49999857,
-        "posY": 1.454574,
-        "posZ": -8.22628,
+        "posX": -4.500002,
+        "posY": 1.45457423,
+        "posZ": -8.226278,
         "rotX": 359.993774,
-        "rotY": 0.0006593421,
-        "rotZ": -0.00421406562,
+        "rotY": 0.0006593418,
+        "rotZ": -0.004213962,
         "scaleX": 0.317488968,
         "scaleY": 1.0,
         "scaleZ": 0.317488968
@@ -1143,12 +1143,12 @@
       "GUID": "100e94",
       "Name": "Figurine_Custom",
       "Transform": {
-        "posX": -1.49955893,
-        "posY": 1.24714828,
-        "posZ": 12.5669613,
+        "posX": -1.50040483,
+        "posY": 1.24729586,
+        "posZ": 12.5643435,
         "rotX": 356.7738,
-        "rotY": 180.015808,
-        "rotZ": -0.00168582331,
+        "rotY": 179.9903,
+        "rotZ": -0.000247697637,
         "scaleX": 0.838246167,
         "scaleY": 0.838246167,
         "scaleZ": 0.838246167
@@ -1198,12 +1198,12 @@
       "GUID": "100fcb",
       "Name": "Figurine_Custom",
       "Transform": {
-        "posX": 3.00015259,
-        "posY": 1.29678488,
-        "posZ": 11.6885958,
-        "rotX": 356.7738,
-        "rotY": 179.982773,
-        "rotZ": 0.000176235291,
+        "posX": 3.000011,
+        "posY": 1.29670167,
+        "posZ": 11.6900654,
+        "rotX": 356.77356,
+        "rotY": 179.9779,
+        "rotZ": 4.07830921e-05,
         "scaleX": 0.838246167,
         "scaleY": 0.838246167,
         "scaleZ": 0.838246167
@@ -1250,1435 +1250,15 @@
       "XmlUI": ""
     },
     {
-      "GUID": "2dc778",
-      "Name": "Deck",
-      "Transform": {
-        "posX": 12.0000963,
-        "posY": 0.995372534,
-        "posZ": -14.2884636,
-        "rotX": 9.894141e-08,
-        "rotY": -0.00057683,
-        "rotZ": 180.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "Карты снаряжения",
-      "Description": "Колода: 3 карт.",
-      "GMNotes": "teyrin:gear@676140fe",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": true,
-      "Hands": false,
-      "SidewaysCard": false,
-      "DeckIDs": [
-        400,
-        401,
-        402
-      ],
-      "CustomDeck": {
-        "4": {
-          "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_face.c03cac03.png",
-          "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_back.005a2a19.png",
-          "NumWidth": 3,
-          "NumHeight": 1,
-          "BackIsHidden": true,
-          "UniqueBack": false,
-          "Type": 0
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "ContainedObjects": [
-        {
-          "GUID": "4020cd",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000963,
-            "posY": 0.995372534,
-            "posZ": -14.2884636,
-            "rotX": 9.894141e-08,
-            "rotY": -0.00057683,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Примитивное копье",
-          "Description": "Карты: копье. Атака: наносит 6 пронзающего урона, дальность 2\n\nТип: Оружие",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 400,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "4": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_face.c03cac03.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_back.005a2a19.png",
-              "NumWidth": 3,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "402204",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000963,
-            "posY": 1.195372534,
-            "posZ": -14.2884636,
-            "rotX": 9.894141e-08,
-            "rotY": -0.00057683,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Примитивный лук",
-          "Description": "Карты: лук. Атака: наносит 4 пронзающего урона, дальность 25\n\nТип: Оружие",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 401,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "4": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_face.c03cac03.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_back.005a2a19.png",
-              "NumWidth": 3,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "40233b",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000963,
-            "posY": 1.395372534,
-            "posZ": -14.2884636,
-            "rotX": 9.894141e-08,
-            "rotY": -0.00057683,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Перчатки с огненным кристалом",
-          "Description": "Карты: Раскаление, Огненный шар, Быстрая стрельба искрами\n\nТип: Руки",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 402,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "4": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_face.c03cac03.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_back.005a2a19.png",
-              "NumWidth": 3,
-              "NumHeight": 1,
-              "BackIsHidden": true,
-              "UniqueBack": false,
-              "Type": 0
-            }
-          }
-        }
-      ]
-    },
-    {
-      "GUID": "a3a724",
-      "Name": "Deck",
-      "Transform": {
-        "posX": 12.0000076,
-        "posY": 1.0675832,
-        "posZ": -10.8243561,
-        "rotX": 3.47304933e-07,
-        "rotY": 180.008835,
-        "rotZ": 180.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "Карты действий",
-      "Description": "Колода: 19 карт.",
-      "GMNotes": "teyrin:actions@39fbb789",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": true,
-      "Hands": false,
-      "SidewaysCard": false,
-      "DeckIDs": [
-        500,
-        501,
-        502,
-        503,
-        504,
-        505,
-        506,
-        507,
-        508,
-        509,
-        510,
-        511,
-        512,
-        513,
-        514,
-        515,
-        516,
-        517,
-        518
-      ],
-      "CustomDeck": {
-        "5": {
-          "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-          "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-          "NumWidth": 5,
-          "NumHeight": 4,
-          "BackIsHidden": true,
-          "UniqueBack": true,
-          "Type": 0
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "ContainedObjects": [
-        {
-          "GUID": "401715",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 1.0675832,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Уворот / Прыжок уворот",
-          "Description": "Верх: Уворот — ОД 4, вын. 2\nРеакция: Уворот 1\n\nНиз: Прыжок уворот — ОД 5, вын. 3\nРеакция: Уворот 3",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 500,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "40184c",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 1.2675832,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Общая подготовка / Общая подготовка+",
-          "Description": "Верх: Общая подготовка — ОД 2, вын. 0\nВаша следующая карта стоит на 2 меньеше\n\nНиз: Общая подготовка+ — ОД 3, вын. 0\nДве ваши следующие карты стоит на 2 меньеше",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 501,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "401983",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 1.4675832,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Общее размышление / Общее  размышление+",
-          "Description": "Верх: Общее размышление — ОД 3, вын. 0\nВы берете 2 карты\n\nНиз: Общее  размышление+ — ОД 4, вын. 0\nВы берете 3 карты, ваша следующая карта стоит на 1 меньеше",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 502,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "401aba",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 1.6675832000000002,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Выпад копьём / Сильный выпад копьём",
-          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Сильный выпад копьём — ОД 4, вын. 1\nАтака: урон +3\n\nПринадлежность: Копьё",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 503,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "401bf1",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 1.8675832,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Выпад копьём / Дальний выпад копьем",
-          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Дальний выпад копьем — ОД 4, вын. 1\nАтака: урон -1, дальность +1\n\nПринадлежность: Копьё",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 504,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "401d28",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 2.0675832,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Выпад копьём / Быстрый выпад копьем",
-          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Быстрый выпад копьем — ОД 2, вын. 1\nАтака: урон -2; Эхо\n\nПринадлежность: Копьё",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 505,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "401e5f",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 2.2675832000000002,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Выпад копьём / Комбо выпад копьем",
-          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Комбо выпад копьем — ОД 4, вын. 1\nАтака, ваша следующая карта стоит на 2 меньеше\n\nПринадлежность: Копьё",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 506,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "401f96",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 2.4675832,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Выпад копьём / Тактический выпад копьем",
-          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Тактический выпад копьем — ОД 3, вын. 1\nАтака:  урон -2, вы берете карту\n\nПринадлежность: Копьё",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 507,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "402e2a",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 2.6675832,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Выпад копьём / Блок древком",
-          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Блок древком — ОД 3, вын. 2\nРеакция: Блокирование 5\n\nПринадлежность: Копьё",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 508,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "402f61",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 2.8675832000000003,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Выпад копьём / Упреждающий выпад копьем",
-          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Упреждающий выпад копьем — ОД 4, вын. 1\nРеакция: Атака\n\nПринадлежность: Копьё",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 509,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "403098",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 3.0675832,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Выпад копьём / Рывок с копьем",
-          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nАтака\n\nНиз: Рывок с копьем — ОД 4, вын. 2\nПередвижение на 3 гекса, Атака +1\n\nПринадлежность: Копьё",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 510,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "4031cf",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 3.2675832000000002,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Выстрел из лука / Быстрый выстрел из лука",
-          "Description": "Верх: Выстрел из лука — ОД 8, вын. 3\nАтака\n\nНиз: Быстрый выстрел из лука — ОД 5, вын. 2\nАтака: урон -1, дальность -10; Эхо\n\nПринадлежность: Лук",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 511,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "403306",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 3.4675832000000004,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Выстрел из лука / Упреждающий выстрел из лука",
-          "Description": "Верх: Выстрел из лука — ОД 8, вын. 3\nАтака\n\nНиз: Упреждающий выстрел из лука — ОД 10, вын. 3\nРеакция: Атака\n\nПринадлежность: Лук",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 512,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "40343d",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 3.6675832,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Выстрел из лука / Точный выстрел из лука",
-          "Description": "Верх: Выстрел из лука — ОД 8, вын. 3\nАтака\n\nНиз: Точный выстрел из лука — ОД 10, вын. 3\nАтака: урон +3, дальность +10\n\nПринадлежность: Лук",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 513,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "403574",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 3.8675832000000003,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Раскаление / Раскаление+",
-          "Description": "Верх: Раскаление — ОД 2, вын. 3\nВы получаете 1 стак Огня\n\nНиз: Раскаление+ — ОД 3, вын. 5\nВы получаете 2 стака Огня\n\nПринадлежность: Огонь",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 514,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "4036ab",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 4.0675832,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Огненный шар / Струя огня",
-          "Description": "Верх: Огненный шар — ОД 8, вын. 8\nНаносит 6 урона огнем, дальность 10, радиус 2\n\nНиз: Струя огня — ОД 2, вын. 2\nНаносит 1 урона огнем, дальность 3, Эхо\n\nПринадлежность: Огонь",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 515,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "4037e2",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 4.267583200000001,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Клеймо / Клеймо+",
-          "Description": "Верх: Клеймо — ОД 2, вын. 2\nНаносит 2 урона огнем, дальность 1, замешивает карту Ожог в колоду противника за каждые 2 нанесённого урона\n\nНиз: Клеймо+ — ОД 4, вын. 4\nНаносит 6 урона огнем, дальность 1, замешивает карту Ожог в колоду противника за каждые 2 нанесённого урона\n\nПринадлежность: Огонь",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 516,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "403919",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 4.4675832,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Ожог",
-          "Description": "Верх: Ожог — ОД —, вын. —\nПри взятии наносит 1 урона огнем, сбрасывается в начале хода\n\nПринадлежность: Боль",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 517,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "403a50",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0000076,
-            "posY": 4.6675832,
-            "posZ": -10.8243561,
-            "rotX": 3.47304933e-07,
-            "rotY": 180.008835,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Тестовая карта",
-          "Description": "Верх: Тестовая карта — ОД —, вын. —\n",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 518,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "5": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.c70b24b3.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
-              "NumWidth": 5,
-              "NumHeight": 4,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        }
-      ]
-    },
-    {
       "GUID": "561609",
       "Name": "Die_20",
       "Transform": {
-        "posX": -6.00000048,
-        "posY": 1.37810576,
-        "posZ": 11.6923046,
-        "rotX": 10.812336,
-        "rotY": 180.7224,
-        "rotZ": 198.000015,
+        "posX": -6.00864458,
+        "posY": 1.37810588,
+        "posZ": 11.6879969,
+        "rotX": 10.8123274,
+        "rotY": 180.722366,
+        "rotZ": 198.0,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -2881,12 +1461,12 @@
       "GUID": "901584",
       "Name": "Die_10",
       "Transform": {
-        "posX": -7.500003,
-        "posY": 1.3223983,
-        "posZ": 7.362178,
-        "rotX": 38.6516,
-        "rotY": 1.52302551,
-        "rotZ": 270.451752,
+        "posX": -7.51084375,
+        "posY": 1.32239854,
+        "posZ": 7.35970259,
+        "rotX": 38.6515656,
+        "rotY": 1.52295923,
+        "rotZ": 270.451721,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3009,12 +1589,12 @@
       "GUID": "dc6251",
       "Name": "Die_10",
       "Transform": {
-        "posX": -6.00000238,
-        "posY": 1.32239914,
-        "posZ": 8.228203,
-        "rotX": 38.65158,
-        "rotY": 1.52375114,
-        "rotZ": 270.45163,
+        "posX": -6.010843,
+        "posY": 1.32239819,
+        "posZ": 8.225724,
+        "rotX": 38.6516151,
+        "rotY": 1.52368844,
+        "rotZ": 270.45166,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3028,9 +1608,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.409407616,
-        "g": 0.409407616,
-        "b": 0.409407616
+        "r": 0.4094074,
+        "g": 0.4094074,
+        "b": 0.4094074
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3137,12 +1717,12 @@
       "GUID": "5ff86d",
       "Name": "Die_10",
       "Transform": {
-        "posX": -6.00000334,
-        "posY": 1.32239783,
-        "posZ": 9.960253,
+        "posX": -6.01044369,
+        "posY": 1.3223983,
+        "posZ": 9.957584,
         "rotX": 38.65158,
         "rotY": 358.975861,
-        "rotZ": 270.45166,
+        "rotZ": 270.451782,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3156,9 +1736,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.046810694,
-        "g": 0.2770033,
-        "b": 0.1151491
+        "r": 0.0468105674,
+        "g": 0.2770031,
+        "b": 0.115148924
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3265,12 +1845,12 @@
       "GUID": "10699a",
       "Name": "Die_10",
       "Transform": {
-        "posX": -7.50000334,
-        "posY": 1.32239819,
-        "posZ": 9.094229,
-        "rotX": 38.65159,
-        "rotY": 359.023346,
-        "rotZ": 270.451752,
+        "posX": -7.510459,
+        "posY": 1.3223983,
+        "posZ": 9.09156,
+        "rotX": 38.651577,
+        "rotY": 359.0233,
+        "rotZ": 270.4517,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3284,9 +1864,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.08563609,
+        "r": 0.08563597,
         "g": 0.517421544,
-        "b": 0.211732686
+        "b": 0.211732477
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -3393,12 +1973,12 @@
       "GUID": "bc7789",
       "Name": "Die_10",
       "Transform": {
-        "posX": -7.501746,
-        "posY": 1.32239842,
-        "posZ": 10.8258352,
-        "rotX": 38.65157,
-        "rotY": 359.024231,
-        "rotZ": 270.4517,
+        "posX": -7.514123,
+        "posY": 1.32239914,
+        "posZ": 10.8252907,
+        "rotX": 38.6515541,
+        "rotY": 359.02417,
+        "rotZ": 270.45166,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -3518,548 +2098,15 @@
       ]
     },
     {
-      "GUID": "300aef",
-      "Name": "DeckCustom",
-      "Transform": {
-        "posX": 12.0,
-        "posY": 1.0194428,
-        "posZ": 11.0,
-        "rotX": 1.33517418e-07,
-        "rotY": -4.96109243e-09,
-        "rotZ": 180.0,
-        "scaleX": 1.0,
-        "scaleY": 1.0,
-        "scaleZ": 1.0
-      },
-      "Nickname": "Карты зверя",
-      "Description": "Колода: 8 карт.",
-      "GMNotes": "teyrin:beast@060520ff",
-      "AltLookAngle": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "ColorDiffuse": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0
-      },
-      "LayoutGroupSortIndex": 0,
-      "Value": 0,
-      "Locked": false,
-      "Grid": true,
-      "Snap": true,
-      "IgnoreFoW": false,
-      "MeasureMovement": false,
-      "DragSelectable": true,
-      "Autoraise": true,
-      "Sticky": true,
-      "Tooltip": true,
-      "GridProjection": false,
-      "HideWhenFaceDown": true,
-      "Hands": false,
-      "SidewaysCard": false,
-      "DeckIDs": [
-        600,
-        601,
-        602,
-        603,
-        604,
-        605,
-        606,
-        607
-      ],
-      "CustomDeck": {
-        "6": {
-          "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
-          "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
-          "NumWidth": 4,
-          "NumHeight": 2,
-          "BackIsHidden": true,
-          "UniqueBack": true,
-          "Type": 0
-        }
-      },
-      "LuaScript": "",
-      "LuaScriptState": "",
-      "XmlUI": "",
-      "ContainedObjects": [
-        {
-          "GUID": "402472",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0,
-            "posY": 1.0194428,
-            "posZ": 11.0,
-            "rotX": 1.33517418e-07,
-            "rotY": -4.96109243e-09,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Взмах когтями / Быстрый взмах когтями",
-          "Description": "Верх: Взмах когтями — ОД 3, вын. 1\nНаносит 4 пронзающего урона, дальность 1\n\nНиз: Быстрый взмах когтями — ОД 2, вын. 1\nНаносит 2 пронзающего урона, дальность 1; Эхо\n\nПринадлежность: Когти",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 600,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "6": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
-              "NumWidth": 4,
-              "NumHeight": 2,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "4025a9",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0,
-            "posY": 1.2194428,
-            "posZ": 11.0,
-            "rotX": 1.33517418e-07,
-            "rotY": -4.96109243e-09,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Взмах когтями / Бросить добычу",
-          "Description": "Верх: Взмах когтями — ОД 3, вын. 1\nНаносит 4 пронзающего урона, дальность 1\n\nНиз: Бросить добычу — ОД 5, вын. 3\nНаносит 8 дробящего урона, дальность 1, цель передвигается на 2 гекса\n\nПринадлежность: Когти",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 601,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "6": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
-              "NumWidth": 4,
-              "NumHeight": 2,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "4026e0",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0,
-            "posY": 1.4194428000000001,
-            "posZ": 11.0,
-            "rotX": 1.33517418e-07,
-            "rotY": -4.96109243e-09,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Взмах когтями / Огрызнуться",
-          "Description": "Верх: Взмах когтями — ОД 3, вын. 1\nНаносит 4 пронзающего урона, дальность 1\n\nНиз: Огрызнуться — ОД 4, вын. 2\nРеакция: наносит 4 дробящего урона, дальность 1\n\nПринадлежность: Когти",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 602,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "6": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
-              "NumWidth": 4,
-              "NumHeight": 2,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "402817",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0,
-            "posY": 1.6194428,
-            "posZ": 11.0,
-            "rotX": 1.33517418e-07,
-            "rotY": -4.96109243e-09,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Прыжок с наскока / Прыжок с наскока+",
-          "Description": "Верх: Прыжок с наскока — ОД 4, вын. 3\nПередвижение на 3 гекса, наносит 5 пронзающего урона, дальность 1\n\nНиз: Прыжок с наскока+ — ОД 5, вын. 3\nПередвижение на 4 гекса, наносит 7 пронзающего урона, дальность 1\n\nПринадлежность: Когти",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 603,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "6": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
-              "NumWidth": 4,
-              "NumHeight": 2,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "40294e",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0,
-            "posY": 1.8194428,
-            "posZ": 11.0,
-            "rotX": 1.33517418e-07,
-            "rotY": -4.96109243e-09,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Скользнуть мимо / Ощетиниться",
-          "Description": "Верх: Скользнуть мимо — ОД 3, вын. 1\nРеакция: Уворот 1; Эхо\n\nНиз: Ощетиниться — ОД 4, вын. 3\nРеакция: Блокирование 8",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 604,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "6": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
-              "NumWidth": 4,
-              "NumHeight": 2,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "402a85",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0,
-            "posY": 2.0194428,
-            "posZ": 11.0,
-            "rotX": 1.33517418e-07,
-            "rotY": -4.96109243e-09,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Затаиться / Выследить",
-          "Description": "Верх: Затаиться — ОД 2, вын. 0\nВаша следующая карта стоит на 2 меньше\n\nНиз: Выследить — ОД 3, вын. 0\nВы берете 2 карты",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 605,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "6": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
-              "NumWidth": 4,
-              "NumHeight": 2,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "402bbc",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0,
-            "posY": 2.2194428000000004,
-            "posZ": 11.0,
-            "rotX": 1.33517418e-07,
-            "rotY": -4.96109243e-09,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Рваная рана / Рваная рана+",
-          "Description": "Верх: Рваная рана — ОД 3, вын. 2\nНаносит 2 пронзающего урона, дальность 1, замешивает карту Кровотечение в колоду противника\n\nНиз: Рваная рана+ — ОД 5, вын. 3\nНаносит 5 пронзающего урона, дальность 1, замешивает 2 карты Кровотечение в колоду противника\n\nПринадлежность: Когти",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 606,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "6": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
-              "NumWidth": 4,
-              "NumHeight": 2,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        },
-        {
-          "GUID": "402cf3",
-          "Name": "Card",
-          "Transform": {
-            "posX": 12.0,
-            "posY": 2.4194428,
-            "posZ": 11.0,
-            "rotX": 1.33517418e-07,
-            "rotY": -4.96109243e-09,
-            "rotZ": 180.0,
-            "scaleX": 1.0,
-            "scaleY": 1.0,
-            "scaleZ": 1.0
-          },
-          "Nickname": "Кровотечение",
-          "Description": "Верх: Кровотечение — ОД —, вын. —\nПри взятии вы теряете 1 здоровье и расходует 1 выносливости, сбрасывается в начале хода\n\nПринадлежность: Боль",
-          "GMNotes": "",
-          "AltLookAngle": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0
-          },
-          "ColorDiffuse": {
-            "r": 1.0,
-            "g": 1.0,
-            "b": 1.0
-          },
-          "LayoutGroupSortIndex": 0,
-          "Value": 0,
-          "Locked": false,
-          "Grid": true,
-          "Snap": true,
-          "IgnoreFoW": false,
-          "MeasureMovement": false,
-          "DragSelectable": true,
-          "Autoraise": true,
-          "Sticky": true,
-          "Tooltip": true,
-          "GridProjection": false,
-          "HideWhenFaceDown": true,
-          "Hands": false,
-          "LuaScript": "",
-          "LuaScriptState": "",
-          "XmlUI": "",
-          "CardID": 607,
-          "SidewaysCard": false,
-          "CustomDeck": {
-            "6": {
-              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
-              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
-              "NumWidth": 4,
-              "NumHeight": 2,
-              "BackIsHidden": true,
-              "UniqueBack": true,
-              "Type": 0
-            }
-          }
-        }
-      ]
-    },
-    {
       "GUID": "7a871b",
       "Name": "Die_10",
       "Transform": {
-        "posX": -9.000004,
-        "posY": 1.32239866,
-        "posZ": 8.228203,
-        "rotX": 38.6515579,
+        "posX": -9.010481,
+        "posY": 1.32239807,
+        "posZ": 8.225551,
+        "rotX": 38.6516037,
         "rotY": 359.1918,
-        "rotZ": 270.451782,
+        "rotZ": 270.451843,
         "scaleX": 1.0,
         "scaleY": 1.0,
         "scaleZ": 1.0
@@ -4073,9 +2120,9 @@
         "z": 0.0
       },
       "ColorDiffuse": {
-        "r": 0.141816288,
+        "r": 0.141816109,
         "g": 0.7752612,
-        "b": 0.322800636
+        "b": 0.322800428
       },
       "LayoutGroupSortIndex": 0,
       "Value": 0,
@@ -4174,6 +2221,2353 @@
             "x": 38.0,
             "y": 180.0,
             "z": -90.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "d71826",
+      "Name": "Deck",
+      "Transform": {
+        "posX": 12.0,
+        "posY": 1.00500059,
+        "posZ": -12.556406,
+        "rotX": -3.664678e-08,
+        "rotY": 180.001175,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Карты снаряжения",
+      "Description": "Колода: 3 карт.",
+      "GMNotes": "teyrin:gear@9997427e",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        400,
+        401,
+        402
+      ],
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_face.1abd4a6b.png",
+          "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_back.005a2a19.png",
+          "NumWidth": 3,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "403306",
+          "Name": "Card",
+          "Transform": {
+            "posX": 12.0,
+            "posY": 1.00500059,
+            "posZ": -12.556406,
+            "rotX": -3.664678e-08,
+            "rotY": 180.001175,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Примитивное копье",
+          "Description": "Карты: копье. Эффект предмета: наносит 6 пронзающего урона, дальность 2\n\nТип: Оружие",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 400,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_face.1abd4a6b.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_back.005a2a19.png",
+              "NumWidth": 3,
+              "NumHeight": 1,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "40343d",
+          "Name": "Card",
+          "Transform": {
+            "posX": 12.0,
+            "posY": 1.20500059,
+            "posZ": -12.556406,
+            "rotX": -3.664678e-08,
+            "rotY": 180.001175,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Примитивный лук",
+          "Description": "Карты: лук. Эффект предмета: наносит 4 пронзающего урона, дальность 25\n\nТип: Оружие",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 401,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_face.1abd4a6b.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_back.005a2a19.png",
+              "NumWidth": 3,
+              "NumHeight": 1,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "403a50",
+          "Name": "Card",
+          "Transform": {
+            "posX": 12.0,
+            "posY": 1.4050005900000002,
+            "posZ": -12.556406,
+            "rotX": -3.664678e-08,
+            "rotY": 180.001175,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Перчатки с огненным кристалом",
+          "Description": "Карты: Раскаление, Огненный шар, Быстрая стрельба искрами\n\nТип: Руки",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 402,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "4": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_face.1abd4a6b.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_back.005a2a19.png",
+              "NumWidth": 3,
+              "NumHeight": 1,
+              "BackIsHidden": true,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "4020cd",
+      "Name": "Card",
+      "Transform": {
+        "posX": 6.0,
+        "posY": 0.9736048,
+        "posZ": 11.6923046,
+        "rotX": -2.18164274e-07,
+        "rotY": -2.26590621e-10,
+        "rotZ": 4.578304e-08,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Примитивное копье",
+      "Description": "Карты: копье. Атака: наносит 6 пронзающего урона, дальность 2\n\nТип: Оружие",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "CardID": 400,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "4": {
+          "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_face.c03cac03.png",
+          "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/gear_back.005a2a19.png",
+          "NumWidth": 3,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "96d3b7",
+      "Name": "Deck",
+      "Transform": {
+        "posX": 6.0,
+        "posY": 1.0194428,
+        "posZ": 8.228203,
+        "rotX": -3.43176829e-08,
+        "rotY": 180.0,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Карты действий",
+      "Description": "Колода: 19 карт.",
+      "GMNotes": "teyrin:actions@f1eefab2",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509,
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518
+      ],
+      "CustomDeck": {
+        "5": {
+          "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+          "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+          "NumWidth": 5,
+          "NumHeight": 4,
+          "BackIsHidden": true,
+          "UniqueBack": true,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "400137",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 1.0194428,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Уворот / Прыжок уворот",
+          "Description": "Верх: Уворот — ОД 4, вын. 2\nРеакция: Уворот 1\n\nНиз: Прыжок уворот — ОД 5, вын. 3\nРеакция: Уворот 3",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 500,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "40026e",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 1.2194428,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Общая подготовка / Общая подготовка+",
+          "Description": "Верх: Общая подготовка — ОД 2, вын. 0\nВаша следующая карта стоит на 2 меньеше\n\nНиз: Общая подготовка+ — ОД 3, вын. 0\nДве ваши следующие карты стоит на 2 меньеше",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 501,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "4003a5",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 1.4194428000000001,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Общее размышление / Общее  размышление+",
+          "Description": "Верх: Общее размышление — ОД 3, вын. 0\nВы берете 2 карты\n\nНиз: Общее  размышление+ — ОД 4, вын. 0\nВы берете 3 карты, ваша следующая карта стоит на 1 меньеше",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 502,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "4004dc",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 1.6194428,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Сильный выпад копьём",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nЭффект предмета\n\nНиз: Сильный выпад копьём — ОД 4, вын. 1\nЭффект предмета: урон +3\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 503,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "400613",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 1.8194428,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Дальний выпад копьем",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nЭффект предмета\n\nНиз: Дальний выпад копьем — ОД 4, вын. 1\nЭффект предмета: урон -1, дальность +1\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 504,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "40074a",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 2.0194428,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Быстрый выпад копьем",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nЭффект предмета\n\nНиз: Быстрый выпад копьем — ОД 2, вын. 1\nЭффект предмета: урон -2; Эхо\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 505,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "400881",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 2.2194428000000004,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Комбо выпад копьем",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nЭффект предмета\n\nНиз: Комбо выпад копьем — ОД 4, вын. 1\nЭффект предмета, ваша следующая карта стоит на 2 меньеше\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 506,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "4009b8",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 2.4194428,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Тактический выпад копьем",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nЭффект предмета\n\nНиз: Тактический выпад копьем — ОД 3, вын. 1\nЭффект предмета:  урон -2, вы берете карту\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 507,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "400aef",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 2.6194428,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Блок древком",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nЭффект предмета\n\nНиз: Блок древком — ОД 3, вын. 2\nРеакция: Блокирование 5\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 508,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "400c26",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 2.8194428,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Упреждающий выпад копьем",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nЭффект предмета\n\nНиз: Упреждающий выпад копьем — ОД 4, вын. 1\nРеакция: Эффект предмета\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 509,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "400d5d",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 3.0194428,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выпад копьём / Рывок с копьем",
+          "Description": "Верх: Выпад копьём — ОД 3, вын. 1\nЭффект предмета\n\nНиз: Рывок с копьем — ОД 4, вын. 2\nПередвижение на 3 гекса, Эффект предмета +1\n\nПринадлежность: Копьё",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 510,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "400e94",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 3.2194428000000004,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выстрел из лука / Быстрый выстрел из лука",
+          "Description": "Верх: Выстрел из лука — ОД 8, вын. 3\nЭффект предмета\n\nНиз: Быстрый выстрел из лука — ОД 5, вын. 2\nЭффект предмета: урон -1, дальность -10; Эхо\n\nПринадлежность: Лук",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 511,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "400fcb",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 3.4194428000000006,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выстрел из лука / Упреждающий выстрел из лука",
+          "Description": "Верх: Выстрел из лука — ОД 8, вын. 3\nЭффект предмета\n\nНиз: Упреждающий выстрел из лука — ОД 10, вын. 3\nРеакция: Эффект предмета\n\nПринадлежность: Лук",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 512,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "401102",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 3.6194428,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Выстрел из лука / Точный выстрел из лука",
+          "Description": "Верх: Выстрел из лука — ОД 8, вын. 3\nЭффект предмета\n\nНиз: Точный выстрел из лука — ОД 10, вын. 3\nЭффект предмета: урон +3, дальность +10\n\nПринадлежность: Лук",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 513,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "401239",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 3.8194428,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Раскаление / Раскаление+",
+          "Description": "Верх: Раскаление — ОД 2, вын. 3\nВы получаете 1 стак Огня\n\nНиз: Раскаление+ — ОД 3, вын. 5\nВы получаете 2 стака Огня\n\nПринадлежность: Огонь",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 514,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "401370",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 4.0194428,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Огненный шар / Струя огня",
+          "Description": "Верх: Огненный шар — ОД 8, вын. 8\nНаносит 6 урона огнем, дальность 10, радиус 2\n\nНиз: Струя огня — ОД 2, вын. 2\nНаносит 1 урона огнем, дальность 3, Эхо\n\nПринадлежность: Огонь",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 515,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "4014a7",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 4.2194428,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Клеймо / Клеймо+",
+          "Description": "Верх: Клеймо — ОД 2, вын. 2\nНаносит 2 урона огнем, дальность 1, замешивает карту Ожог в колоду противника за каждые 2 нанесённого урона\n\nНиз: Клеймо+ — ОД 4, вын. 4\nНаносит 6 урона огнем, дальность 1, замешивает карту Ожог в колоду противника за каждые 2 нанесённого урона\n\nПринадлежность: Огонь",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 516,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "4015de",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 4.419442800000001,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Ожог",
+          "Description": "Верх: Ожог — ОД —, вын. —\nПри взятии наносит 1 урона огнем, сбрасывается в начале хода\n\nПринадлежность: Боль",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 517,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "401bf1",
+          "Name": "Card",
+          "Transform": {
+            "posX": 6.0,
+            "posY": 4.6194428,
+            "posZ": 8.228203,
+            "rotX": -3.43176829e-08,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Тестовая карта",
+          "Description": "Верх: Тестовая карта — ОД —, вын. —\n",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 518,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "5": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_face.d2a7b9d1.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/actions_back.dff0aeea.png",
+              "NumWidth": 5,
+              "NumHeight": 4,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "ac9b75",
+      "Name": "Die_20",
+      "Transform": {
+        "posX": -15.0,
+        "posY": 1.37810564,
+        "posZ": -12.556406,
+        "rotX": 10.812315,
+        "rotY": 180.722458,
+        "rotZ": 198.000015,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "RotationValues": [
+        {
+          "Value": "1",
+          "Rotation": {
+            "x": -11.0,
+            "y": 60.0,
+            "z": 17.0
+          }
+        },
+        {
+          "Value": "2",
+          "Rotation": {
+            "x": 52.0,
+            "y": -60.0,
+            "z": -17.0
+          }
+        },
+        {
+          "Value": "3",
+          "Rotation": {
+            "x": -11.0,
+            "y": -180.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "4",
+          "Rotation": {
+            "x": -11.0,
+            "y": -180.0,
+            "z": 162.0
+          }
+        },
+        {
+          "Value": "5",
+          "Rotation": {
+            "x": -11.0,
+            "y": -60.0,
+            "z": 234.0
+          }
+        },
+        {
+          "Value": "6",
+          "Rotation": {
+            "x": -11.0,
+            "y": -180.0,
+            "z": 306.0
+          }
+        },
+        {
+          "Value": "7",
+          "Rotation": {
+            "x": 52.0,
+            "y": -60.0,
+            "z": 55.0
+          }
+        },
+        {
+          "Value": "8",
+          "Rotation": {
+            "x": 52.0,
+            "y": -60.0,
+            "z": 198.0
+          }
+        },
+        {
+          "Value": "9",
+          "Rotation": {
+            "x": 52.0,
+            "y": -60.0,
+            "z": 127.0
+          }
+        },
+        {
+          "Value": "10",
+          "Rotation": {
+            "x": 52.0,
+            "y": -180.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": "11",
+          "Rotation": {
+            "x": 308.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "12",
+          "Rotation": {
+            "x": 306.0,
+            "y": -240.0,
+            "z": -52.0
+          }
+        },
+        {
+          "Value": "13",
+          "Rotation": {
+            "x": -52.0,
+            "y": -240.0,
+            "z": 18.0
+          }
+        },
+        {
+          "Value": "14",
+          "Rotation": {
+            "x": 307.0,
+            "y": 120.0,
+            "z": 233.0
+          }
+        },
+        {
+          "Value": "15",
+          "Rotation": {
+            "x": 11.0,
+            "y": 120.0,
+            "z": -234.0
+          }
+        },
+        {
+          "Value": "16",
+          "Rotation": {
+            "x": 11.0,
+            "y": 0.0,
+            "z": 54.0
+          }
+        },
+        {
+          "Value": "17",
+          "Rotation": {
+            "x": 11.0,
+            "y": -120.0,
+            "z": -17.0
+          }
+        },
+        {
+          "Value": "18",
+          "Rotation": {
+            "x": 11.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": "19",
+          "Rotation": {
+            "x": -52.0,
+            "y": -240.0,
+            "z": -198.0
+          }
+        },
+        {
+          "Value": "20",
+          "Rotation": {
+            "x": 11.0,
+            "y": 0.0,
+            "z": -162.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "5c9d4a",
+      "Name": "Die_10",
+      "Transform": {
+        "posX": -15.0000048,
+        "posY": 1.3223983,
+        "posZ": -14.2884569,
+        "rotX": 38.6515274,
+        "rotY": 359.02417,
+        "rotZ": 270.45163,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.647058368,
+        "g": 0.785714149,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "RotationValues": [
+        {
+          "Value": "1",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 234.0
+          }
+        },
+        {
+          "Value": "2",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -233.0
+          }
+        },
+        {
+          "Value": "3",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 20.0
+          }
+        },
+        {
+          "Value": "4",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -17.0
+          }
+        },
+        {
+          "Value": "5",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "6",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -161.0
+          }
+        },
+        {
+          "Value": "7",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 307.0
+          }
+        },
+        {
+          "Value": "8",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -304.0
+          }
+        },
+        {
+          "Value": "9",
+          "Rotation": {
+            "x": -38.0,
+            "y": 0.0,
+            "z": 163.0
+          }
+        },
+        {
+          "Value": "10",
+          "Rotation": {
+            "x": 38.0,
+            "y": 180.0,
+            "z": -90.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "3e86cc",
+      "Name": "Deck",
+      "Transform": {
+        "posX": -12.0,
+        "posY": 1.0194428,
+        "posZ": -12.556406,
+        "rotX": -1.69871413e-07,
+        "rotY": -2.93450775e-09,
+        "rotZ": 180.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Карты зверя",
+      "Description": "Колода: 8 карт.",
+      "GMNotes": "teyrin:beast@060520ff",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607
+      ],
+      "CustomDeck": {
+        "6": {
+          "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
+          "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
+          "NumWidth": 4,
+          "NumHeight": 2,
+          "BackIsHidden": true,
+          "UniqueBack": true,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "401d28",
+          "Name": "Card",
+          "Transform": {
+            "posX": -12.0,
+            "posY": 1.0194428,
+            "posZ": -12.556406,
+            "rotX": -1.69871413e-07,
+            "rotY": -2.93450775e-09,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Взмах когтями / Быстрый взмах когтями",
+          "Description": "Верх: Взмах когтями — ОД 3, вын. 1\nНаносит 4 пронзающего урона, дальность 1\n\nНиз: Быстрый взмах когтями — ОД 2, вын. 1\nНаносит 2 пронзающего урона, дальность 1; Эхо\n\nПринадлежность: Когти",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 600,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "6": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "401e5f",
+          "Name": "Card",
+          "Transform": {
+            "posX": -12.0,
+            "posY": 1.2194428,
+            "posZ": -12.556406,
+            "rotX": -1.69871413e-07,
+            "rotY": -2.93450775e-09,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Взмах когтями / Бросить добычу",
+          "Description": "Верх: Взмах когтями — ОД 3, вын. 1\nНаносит 4 пронзающего урона, дальность 1\n\nНиз: Бросить добычу — ОД 5, вын. 3\nНаносит 8 дробящего урона, дальность 1, цель передвигается на 2 гекса\n\nПринадлежность: Когти",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 601,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "6": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "401f96",
+          "Name": "Card",
+          "Transform": {
+            "posX": -12.0,
+            "posY": 1.4194428000000001,
+            "posZ": -12.556406,
+            "rotX": -1.69871413e-07,
+            "rotY": -2.93450775e-09,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Взмах когтями / Огрызнуться",
+          "Description": "Верх: Взмах когтями — ОД 3, вын. 1\nНаносит 4 пронзающего урона, дальность 1\n\nНиз: Огрызнуться — ОД 4, вын. 2\nРеакция: наносит 4 дробящего урона, дальность 1\n\nПринадлежность: Когти",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 602,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "6": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "402204",
+          "Name": "Card",
+          "Transform": {
+            "posX": -12.0,
+            "posY": 1.6194428,
+            "posZ": -12.556406,
+            "rotX": -1.69871413e-07,
+            "rotY": -2.93450775e-09,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Прыжок с наскока / Прыжок с наскока+",
+          "Description": "Верх: Прыжок с наскока — ОД 4, вын. 3\nПередвижение на 3 гекса, наносит 5 пронзающего урона, дальность 1\n\nНиз: Прыжок с наскока+ — ОД 5, вын. 3\nПередвижение на 4 гекса, наносит 7 пронзающего урона, дальность 1\n\nПринадлежность: Когти",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 603,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "6": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "4025a9",
+          "Name": "Card",
+          "Transform": {
+            "posX": -12.0,
+            "posY": 1.8194428,
+            "posZ": -12.556406,
+            "rotX": -1.69871413e-07,
+            "rotY": -2.93450775e-09,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Скользнуть мимо / Ощетиниться",
+          "Description": "Верх: Скользнуть мимо — ОД 3, вын. 1\nРеакция: Уворот 1; Эхо\n\nНиз: Ощетиниться — ОД 4, вын. 3\nРеакция: Блокирование 8",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 604,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "6": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "402cf3",
+          "Name": "Card",
+          "Transform": {
+            "posX": -12.0,
+            "posY": 2.0194428,
+            "posZ": -12.556406,
+            "rotX": -1.69871413e-07,
+            "rotY": -2.93450775e-09,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Затаиться / Выследить",
+          "Description": "Верх: Затаиться — ОД 2, вын. 0\nВаша следующая карта стоит на 2 меньше\n\nНиз: Выследить — ОД 3, вын. 0\nВы берете 2 карты",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 605,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "6": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "403098",
+          "Name": "Card",
+          "Transform": {
+            "posX": -12.0,
+            "posY": 2.2194428000000004,
+            "posZ": -12.556406,
+            "rotX": -1.69871413e-07,
+            "rotY": -2.93450775e-09,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Рваная рана / Рваная рана+",
+          "Description": "Верх: Рваная рана — ОД 3, вын. 2\nНаносит 2 пронзающего урона, дальность 1, замешивает карту Кровотечение в колоду противника\n\nНиз: Рваная рана+ — ОД 5, вын. 3\nНаносит 5 пронзающего урона, дальность 1, замешивает 2 карты Кровотечение в колоду противника\n\nПринадлежность: Когти",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 606,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "6": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
+          }
+        },
+        {
+          "GUID": "4031cf",
+          "Name": "Card",
+          "Transform": {
+            "posX": -12.0,
+            "posY": 2.4194428,
+            "posZ": -12.556406,
+            "rotX": -1.69871413e-07,
+            "rotY": -2.93450775e-09,
+            "rotZ": 180.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Кровотечение",
+          "Description": "Верх: Кровотечение — ОД —, вын. —\nПри взятии вы теряете 1 здоровье и расходует 1 выносливости, сбрасывается в начале хода\n\nПринадлежность: Боль",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "CardID": 607,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "6": {
+              "FaceURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_face.f1115fb7.png",
+              "BackURL": "https://raw.githubusercontent.com/Zdravstvuwte/teyrin-tts/main/assets/beast_back.c02d88b2.png",
+              "NumWidth": 4,
+              "NumHeight": 2,
+              "BackIsHidden": true,
+              "UniqueBack": true,
+              "Type": 0
+            }
           }
         }
       ]
