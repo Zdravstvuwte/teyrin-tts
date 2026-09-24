@@ -6,7 +6,7 @@
 Картинки публикуются на GitHub, и сцена ссылается на них по адресам
 raw.githubusercontent.com — такие ссылки видят все игроки.
 """
-import glob, hashlib, json, os
+import hashlib, json, os
 
 REPO     = os.path.dirname(os.path.abspath(__file__))
 ASSETS   = os.path.join(REPO, "assets")
@@ -31,6 +31,11 @@ ASSET_URL = "https://raw.githubusercontent.com/%s/%s/assets/" % (GITHUB, BRANCH)
 # Каждая картинка лежит под именем <ключ>.<хеш содержимого>.png. Правка
 # меняет хеш, а значит имя и ссылку. Так ни кэш TTS, ни кэш GitHub никогда
 # не покажут старую картинку под новым содержимым.
+#
+# Старые версии НЕ удаляются. На них по-прежнему ссылаются объекты, которых
+# sync.py не отслеживает: карты, вынутые из колоды на стол или в руку, колоды,
+# собранные в игре, объекты, сохранённые через Save Object. Удали файл — и у
+# гостей эти объекты станут белыми (GitHub отдаст 404).
 def _manifest():
     if not os.path.exists(MANIFEST):
         return {}
@@ -38,11 +43,8 @@ def _manifest():
 
 
 def store(key, data):
-    """Кладёт PNG под именем <key>.<hash>.png, старые версии удаляет."""
+    """Кладёт PNG под именем <key>.<hash>.png. Старые версии остаются."""
     name = "%s.%s.png" % (key, hashlib.sha1(data).hexdigest()[:8])
-    for old in glob.glob(os.path.join(ASSETS, key + ".*.png")):
-        if os.path.basename(old) != name:
-            os.remove(old)
     with open(os.path.join(ASSETS, name), "wb") as f:
         f.write(data)
     table = _manifest()
