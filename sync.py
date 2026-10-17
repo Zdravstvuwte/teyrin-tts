@@ -352,7 +352,11 @@ def build():
     # Генераторы печатают кириллицу. Их вывод читается как UTF-8, значит и
     # писать они должны в UTF-8, в какой бы кодировке ни было окно.
     env = dict(os.environ, PYTHONIOENCODING="utf-8")
-    for script in ("gen_cards.py", "gen_maps.py", "gen_art.py"):
+    print("Собираю картинки, около 10 секунд. Не закрывайте окно до «Press any key».",
+          flush=True)
+    for script, what in (("gen_cards.py", "карты"), ("gen_maps.py", "поля"),
+                         ("gen_art.py", "фигурки")):
+        print("  " + what + "…", flush=True)
         r = subprocess.run([sys.executable, os.path.join(paths.REPO, script)], env=env,
                            cwd=paths.REPO, capture_output=True, text=True, encoding="utf-8")
         if r.returncode != 0:

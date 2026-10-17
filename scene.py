@@ -130,10 +130,14 @@ def discover_decks():
             fresh += 1
         else:
             pos = known["pos"]
+        # У исходных колод лист фиксирован, но только пока карты на нём
+        # помещаются. Карт стало больше — лист растёт, как у новых колод.
+        sheet = known.get("sheet")
+        if sheet is None or n > sheet[0] * sheet[1]:
+            sheet = auto_sheet(n)
         out.append(dict(key=known.get("key", slug(folder)), nick=folder, xlsx=xlsx,
                         kind=kind, name_col=spec["name_col"], describe=spec["describe"],
-                        unique_back=spec["unique_back"], sheet=known.get("sheet", auto_sheet(n)),
-                        pos=pos, count=n))
+                        unique_back=spec["unique_back"], sheet=sheet, pos=pos, count=n))
     return out
 
 
