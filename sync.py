@@ -36,6 +36,15 @@ from scene import MARK
 DRY = "--dry-run" in sys.argv
 PUSH = "--no-push" not in sys.argv
 
+# Окно, в котором запущен скрипт, может не уметь печатать кириллицу — тогда
+# первый же print падал, и sync обрывался молча сразу после сборки картинок.
+# Непечатаемые символы заменяются, работа продолжается.
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(errors="replace")
+    except (AttributeError, ValueError):
+        pass
+
 
 # ------------------------------------------------------------ объекты в файле
 def mark_of(o):
@@ -340,8 +349,11 @@ def wait_public(urls, tries=15, pause=2):
 
 # ------------------------------------------------------------------------ main
 def build():
+    # Генераторы печатают кириллицу. Их вывод читается как UTF-8, значит и
+    # писать они должны в UTF-8, в какой бы кодировке ни было окно.
+    env = dict(os.environ, PYTHONIOENCODING="utf-8")
     for script in ("gen_cards.py", "gen_maps.py", "gen_art.py"):
-        r = subprocess.run([sys.executable, os.path.join(paths.REPO, script)],
+        r = subprocess.run([sys.executable, os.path.join(paths.REPO, script)], env=env,
                            cwd=paths.REPO, capture_output=True, text=True, encoding="utf-8")
         if r.returncode != 0:
             print(r.stdout, r.stderr)
@@ -410,5 +422,17 @@ def main():
         print("скрипт изменился — перезагрузите сцену (Load), чтобы он применился")
 
 
+LOG = os.path.join(paths.REPO, "sync.log")    # последняя ошибка; в git не попадает
+
+
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except BaseException as e:
+        if not (isinstance(e, SystemExit) and e.code in (None, 0)):
+            import traceback
+            with open(LOG, "w", encoding="utf-8") as f:
+                f.write(time.strftime("%Y-%m-%d %H:%M:%S\n"))
+                traceback.print_exc(file=f)
+            print("\nОШИБКА — подробности в sync.log")
+        raise
