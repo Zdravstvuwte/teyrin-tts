@@ -148,9 +148,24 @@ def is_deck(o):
     return o["Name"] in ("Deck", "DeckCustom") and "CustomDeck" in o
 
 
-def sheet_of(o):
-    cd = list(o["CustomDeck"].values())[0]
-    return (cd["NumWidth"], cd["NumHeight"])
+FACE_RE = re.compile(r"/assets/([a-z0-9_]+)_face\.[0-9a-f]+\.png$")
+
+
+def all_cards(objs):
+    """Все карты сцены — отдельные и внутри колод и мешков, на любой глубине."""
+    for o in objs:
+        if o.get("Name") in ("Card", "CardCustom"):
+            yield o
+        yield from all_cards(o.get("ContainedObjects", []))
+
+
+def card_deck_key(c):
+    """Из какой колоды проекта карта ('actions', 'beast'…) — по ссылке на лист."""
+    for cd in (c.get("CustomDeck") or {}).values():
+        m = FACE_RE.search(cd.get("FaceURL", ""))
+        if m:
+            return m.group(1)
+    return None
 
 
 def rebuild_deck(o, entry, cards, guids):
@@ -192,9 +207,15 @@ def sync_decks(objs, guids, log):
         cards = scene.read_cards(entry["xlsx"], entry["name_col"])
         cur = deck_hash(entry, cards)
         found = [o for o in objs if is_deck(o) and mark_of(o)[0] == key]
-        if not found:                                          # первичное опознание
-            found = [o for o in objs if is_deck(o) and not mark_of(o)[0]
-                     and sheet_of(o) == tuple(entry["sheet"])]
+        if not found:
+            # Колоды с меткой нет, но её карты на столе есть: игрок разобрал её
+            # или собрал из карт свою колоду (такая колода метки не получает).
+            # Это игровая раскладка — её не трогаем и полную колоду рядом не кладём.
+            spread = sum(1 for c in all_cards(objs) if card_deck_key(c) == key)
+            if spread:
+                log("разобрана", entry["nick"], "%d карт на столе вне колоды проекта — не трогаю, "
+                    "свежая колода в Chest" % spread)
+                continue
         if not found:
             deck_id = str(max([int(k) for o in objs if is_deck(o)
                                for k in o["CustomDeck"].keys()] + [0]) + 1)
@@ -210,7 +231,7 @@ def sync_decks(objs, guids, log):
             hot.append((key, json.dumps(o, ensure_ascii=False)))
             continue
         if len(found) > 1:
-            log("ВНИМАНИЕ", entry["nick"], "нашлось %d колод с этой меткой, беру первую" % len(found))
+            log("ВНИМАНИЕ", entry["nick"], "нашлось %d колод с меткой проекта, обновляю первую" % len(found))
         o = found[0]
         _, h = mark_of(o)
         face_ok = list(o["CustomDeck"].values())[0].get("FaceURL") == url(key + "_face")
@@ -281,8 +302,13 @@ def write_chest(objs):
     n = 0
     for entry in scene.DECKS:
         deck = next((o for o in objs if is_deck(o) and mark_of(o)[0] == entry["key"]), None)
-        if deck is None:
-            continue
+        if deck is None:              # на столе колода разобрана — в Chest кладём свежую
+            deck = base_object("000000", "DeckCustom", entry["nick"], "", 0.0, 0.0,
+                               SidewaysCard=False, HideWhenFaceDown=True,
+                               CustomDeck={"1": {}}, DeckIDs=[], ContainedObjects=[])
+            deck["Transform"]["rotZ"] = 180.0
+            rebuild_deck(deck, entry, scene.read_cards(entry["xlsx"], entry["name_col"]),
+                         Guids(objs))
         face = os.path.join(paths.ASSETS, asset(entry["key"] + "_face"))
         with Image.open(face) as im:
             cw, ch = im.width // entry["sheet"][0], im.height // entry["sheet"][1]
@@ -379,12 +405,14 @@ def main():
     hot_images = sync_images(objs, guids, log)
     hot_decks = sync_decks(objs, guids, log)
     lua_changed = sync_lua(save, log)
-    changed = [r for r in rows if r[0] != "без изменений"]
+    info = ("без изменений", "разобрана", "ВНИМАНИЕ")        # сообщения, а не правки сцены
+    changed = [r for r in rows if r[0] not in info]
 
     width = max(len(r[1]) for r in rows)
-    for what, who, detail in changed:
-        print("  %-12s %-*s  %s" % (what, width, who, detail))
-    print("  без изменений: %d" % (len(rows) - len(changed)))
+    for what, who, detail in rows:
+        if what != "без изменений":
+            print("  %-12s %-*s  %s" % (what, width, who, detail))
+    print("  без изменений: %d" % sum(1 for r in rows if r[0] == "без изменений"))
 
     foreign = sorted({u for u in re.findall(r'"(?:ImageURL|FaceURL|BackURL)"\s*:\s*"([^"]+)"',
                                             json.dumps(save)) if not u.startswith(ASSET_URL)})
@@ -398,6 +426,8 @@ def main():
         return
 
     if changed:
+        # Сцена до правки — на случай, если sync тронул не то. Хранится локально, в git не идёт.
+        shutil.copyfile(LIVE, os.path.join(paths.REPO, "save", paths.SLOT + ".before-sync.json"))
         with open(LIVE, "w", encoding="utf-8") as f:
             json.dump(save, f, ensure_ascii=False, indent=2)
     os.makedirs(os.path.dirname(COPY), exist_ok=True)
